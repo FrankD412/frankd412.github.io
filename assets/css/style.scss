@@ -11,3 +11,12 @@ li.navitem {
     max-width: 11em;
     position: relative;
 }
+
+div.site-wrap {
+    width: 100%;
+    max-width: 80em;
+    min-width: 20em;
+    margin: 0 auto;
+    padding: 0 1em;
+    position: relative;
+}
