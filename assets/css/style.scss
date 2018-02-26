@@ -4,6 +4,10 @@
 @import 'jekyll-theme-cayman';
 
 li.navitem {
-    display: inline;
-    border-right: 1px solid #002966
+    display: inline-block;
+    border-left: 1px solid #002966;
+    box-sizing: border-box;
+    min-width: 9em;
+    max-width: 11em;
+    position: relative;
 }
