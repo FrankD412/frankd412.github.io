@@ -19,9 +19,10 @@ div.site-wrap {
     margin: 0 auto;
     padding: 0 1em;
     position: relative;
+    background-color: $site-wrap-color;
 }
 
 div.site-background {
     width: 100%;
-    background-color: $site-wrap-color;
+    background-color: $site-background-color;
 }
