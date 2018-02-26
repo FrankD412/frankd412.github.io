@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+theme:          jekyll-theme-cayman
+title:          Francesco Di Natale
+author:         FrankD412
+locale:         en_US
+url:            https://frankd412.github.io
