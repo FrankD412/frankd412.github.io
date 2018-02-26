@@ -1,0 +1,11 @@
+- title: "Home"
+  href: "/"
+
+- title: "Projects"
+  href: "/projects/"
+
+- title: "About Me"
+  href: "/aboutme/"
+
+- title: "Contact Me"
+  href: "/contact/"
