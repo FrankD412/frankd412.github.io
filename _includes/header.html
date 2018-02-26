@@ -9,13 +9,15 @@
     <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
   {% endif %}
 
-  <ul class="horizontal">
-    {% for nav in site.data.navigation %}
-      {% if nav.title == page.title %}
-          <li class="navitem"><a class="active" href="{{ nav.url }}">{{ nav.title }}</a></li>
-      {% else %}
-          <li class="navitem"><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  <nav id="nav-bar" class="top-menu" role="navigation">
+    <ul>
+      {% for nav in site.data.navigation %}
+        {% if nav.title == page.title %}
+            <li class="navitem"><a class="active" href="{{ nav.url }}">{{ nav.title }}</a></li>
+        {% else %}
+            <li class="navitem"><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 </section>
