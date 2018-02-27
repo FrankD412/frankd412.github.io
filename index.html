@@ -6,9 +6,7 @@ permalink: /
 <div class="index-bio">
     <image src="{{ site.url }}/images/profilepic.jpg" class="index-bio" alt="Who's that dapper fellow?"/>
     <ul class="index-bio">
-        <li class="index-bio">
-            <a>{{ site.data.info.position }}</a>
-        </li>
+        <li class="index-bio">{{ site.data.info.position }}</li>
         <li class="index-bio">
             <a href="{{ site.data.info.company_url }}">
                 {{ site.data.info.company }}
@@ -16,9 +14,6 @@ permalink: /
         </li>
         <li class="index-bio">
             <a href="mailto:{{ site.data.info.w_email }}">
-                <i class="fa fa-envelope-square">
-                    ::before
-                </i>
                 {{ site.data.info.w_email }}
             </a>
         </li>
