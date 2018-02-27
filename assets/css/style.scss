@@ -27,15 +27,12 @@ div.site-background {
 }
 
 div.index-content {
-    display: block;
-    max-width: 80rem;
-    border-right: 1px solid #000000;
-    padding: 2em 2em;
+    display: grid;
+    grid-template-columns: 20em auto;
 }
 
 div.index-bio {
     display: block;
-    max-width: 20rem;
     border-right: 1px solid #000000;
     padding: 2em 2em;
     font-size: medium;
