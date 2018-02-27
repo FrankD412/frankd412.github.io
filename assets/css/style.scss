@@ -26,16 +26,18 @@ div.site-background {
     background-color: $site-background-color;
 }
 
-section.index-content {
-
+div.index-content {
+    display: block;
+    max-width: 20rem;
+    border-right: 1px solid #000000;
+    padding: 2em 2em;
+    font-size: medium;
 }
 
 div.index-bio {
     display: block;
-    max-width: 20em;
-    border-right: 1px solid #000000;
+    max-width: 80rem;
     padding: 2em 2em;
-    font-size: medium;
 }
 
 ul.index-bio {
