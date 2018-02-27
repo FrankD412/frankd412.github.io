@@ -3,34 +3,32 @@ layout: default
 permalink: /
 ---
 
-
-<div class="index-bio">
-    <image src="{{ site.url }}/images/profilepic.jpg" class="index-bio" alt="Who's that dapper fellow?"/>
-    <p>
-        {{ site.data.info.position }}
-        <br/>
-        <a href="{{ site.data.info.company_url }}">
-            {{ site.data.info.company }}
-        </a>
-    </p>
-    <ul class="index-bio">
-        <li class="index-bio">
-            <a href="mailto:{{ site.data.info.w_email }}">
-                {{ site.data.info.w_email }}
+<section class="index-content">
+    <div class="index-bio">
+        <image src="{{ site.url }}/images/profilepic.jpg" class="index-bio" alt="Who's that dapper fellow?"/>
+        <p>
+            {{ site.data.info.position }}
+            <br/>
+            <a href="{{ site.data.info.company_url }}">
+                {{ site.data.info.company }}
             </a>
-        </li>
-        <li class="index-bio">
-            <a href="{{ site.data.info.linkedin }}">
-                LinkedIn
-            </a>
-        </li>
-        <li class="index-bio">
-            <a href="{{ site.data.info.github }}">
-                GitHub
-            </a>
-        </li>
-    </ul>
-</div>
-<div class="index-content">
-    This is a test.
-</div>
+        </p>
+        <ul class="index-bio">
+            <li class="index-bio">
+                <a href="mailto:{{ site.data.info.w_email }}">
+                    {{ site.data.info.w_email }}
+                </a>
+            </li>
+            <li class="index-bio">
+                <a href="{{ site.data.info.linkedin }}">
+                    LinkedIn
+                </a>
+            </li>
+            <li class="index-bio">
+                <a href="{{ site.data.info.github }}">
+                    GitHub
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
