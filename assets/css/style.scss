@@ -3,45 +3,12 @@
 
 @import 'jekyll-theme-cayman';
 
-li.navitem {
-    display: inline-block;
-    border-left: 1px solid #002966;
-    box-sizing: border-box;
-    min-width: 9em;
-    max-width: 11em;
-    position: relative;
-}
-
-div.site-wrap {
-    width: 100%;
-    max-width: 80em;
-    min-width: 20em;
-    margin: 0 auto;
-    padding: 0 1em;
-    position: relative;
-}
-
-div.site-background {
-    width: 100%;
-    background-color: $site-background-color;
-}
-
-section.index-content {
+section.navigation {
     display: grid;
-    grid-template-columns: 20em auto;
+    grid-template-columns: 15em auto;
+    background-color: $nav-background-color
 }
 
-div.index-bio {
+li.navitem {
     display: block;
-    border-right: 1px solid #000000;
-    padding: 2em 2em;
-    font-size: medium;
-}
-
-ul.index-bio {
-
-}
-
-img.index-bio {
-
 }
