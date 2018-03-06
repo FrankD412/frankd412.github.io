@@ -7,6 +7,7 @@
     div {
         display: grid;
         grid-template-columns: 25em auto;
+        background-color: $content-bg-color;
     }
 }
 
@@ -28,7 +29,6 @@
 
 .content {
     section {
-        display: inline-block;
-        background-color: $content-bg-color
+        display: block;
     }
 }
