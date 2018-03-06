@@ -3,9 +3,12 @@
 
 @import 'jekyll-theme-cayman';
 
-section.navigation {
+div.main {
     display: grid;
     grid-template-columns: 15em auto;
+}
+
+section.navigation {
     background-color: $nav-background-color
 }
 
