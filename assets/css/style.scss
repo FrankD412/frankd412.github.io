@@ -9,9 +9,13 @@ div.main {
 }
 
 section.navigation {
-    background-color: $nav-bg-color
+    background-color: $nav-bg-color;
 }
 
 li.navitem {
     display: block;
+}
+
+section.content {
+    background-color: $content-bg-color
 }
