@@ -3,19 +3,31 @@
 
 @import 'jekyll-theme-cayman';
 
-div.main {
-    display: grid;
-    grid-template-columns: 20em auto;
+.main {
+    div {
+        display: grid;
+        grid-template-columns: 25em auto;
+    }
 }
 
-section.navigation {
-    background-color: $nav-bg-color;
+.navigation {
+    section {
+        background-color: $nav-bg-color;
+    }
+
+    li {
+        display: block;
+        text-align: center;
+    }
+
+    li:hover {
+        background-color: $content-bg-color;
+        color: white;
+    }
 }
 
-li.navitem {
-    display: block;
-}
-
-section.content {
-    background-color: $content-bg-color
+.content {
+    section {
+        background-color: $content-bg-color
+    }
 }
