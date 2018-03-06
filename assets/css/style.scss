@@ -6,7 +6,7 @@
 .main {
     div {
         display: grid;
-        grid-template-columns: 20em auto;
+        grid-template-columns: 25em auto;
     }
 }
 
@@ -21,6 +21,8 @@
     }
 
     li:hover {
+        display: block;
+        text-align: center;
         background-color: $content-bg-color;
         color: white;
     }
