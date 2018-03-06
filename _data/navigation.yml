@@ -1,11 +1,8 @@
-- title: "Home"
+- title: "About Me"
   href: "/"
 
 - title: "Projects"
   href: "/projects/"
-
-- title: "About Me"
-  href: "/aboutme/"
 
 - title: "Contact Me"
   href: "/contact/"
