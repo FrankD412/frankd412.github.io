@@ -15,12 +15,12 @@ section.navigation {
 
 li.navigation {
     display: block;
-}
 
-li.navigation:hover {
-    display: block;
-    background-color: $content-bg-color;
-    color: white;
+    &:hover {
+        display: block;
+        background-color: $content-bg-color;
+        color: white;
+    }
 }
 
 section.content {
