@@ -4,31 +4,24 @@
 @import 'jekyll-theme-cayman';
 
 div.default-content {
-    div {
-        display: grid;
-        grid-template-columns: 15% auto;
-        background-color: $content-bg-color;
-    }
+    display: grid;
+    grid-template-columns: 15% auto;
+    background-color: $content-bg-color;
 }
 
-li section.navigation {
-    section {
-        background-color: $nav-bg-color;
-    }
+section.navigation {
+    background-color: $nav-bg-color;
 
-    li {
-        display: block;
-    }
+li.navigation {
+    display: block;
+}
 
-    li:hover {
-        display: block;
-        background-color: $content-bg-color;
-        color: white;
-    }
+li.navigation:hover {
+    display: block;
+    background-color: $content-bg-color;
+    color: white;
 }
 
 section.content {
-    section {
-        display: block;
-    }
+    display: block;
 }
