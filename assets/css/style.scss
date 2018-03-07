@@ -3,12 +3,10 @@
 
 @import 'jekyll-theme-cayman';
 
-.default-content {
-    div {
-        display: grid;
-        grid-template-columns: 15em auto;
-        background-color: $content-bg-color;
-    }
+div.default-content {
+    display: grid;
+    grid-template-columns: 15em auto;
+    background-color: $content-bg-color;
 }
 
 .navigation {
