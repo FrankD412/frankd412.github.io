@@ -4,12 +4,14 @@
 @import 'jekyll-theme-cayman';
 
 div.default-content {
-    display: grid;
-    grid-template-columns: 15em auto;
-    background-color: $content-bg-color;
+    div {
+        display: grid;
+        grid-template-columns: 15% auto;
+        background-color: $content-bg-color;
+    }
 }
 
-.navigation {
+li section.navigation {
     section {
         background-color: $nav-bg-color;
     }
@@ -25,7 +27,7 @@ div.default-content {
     }
 }
 
-.content {
+section.content {
     section {
         display: block;
     }
