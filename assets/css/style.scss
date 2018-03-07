@@ -6,7 +6,7 @@
 .default-content {
     div {
         display: grid;
-        grid-template-columns: 15% auto;
+        grid-template-columns: 15em auto;
         background-color: $content-bg-color;
     }
 }
