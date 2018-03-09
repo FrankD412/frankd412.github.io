@@ -36,3 +36,8 @@ section.content {
         display: inline-flex;
     }
 }
+
+.page-header {
+    color: $header-heading-color;
+    background-color: $header-bg-color;
+ }
