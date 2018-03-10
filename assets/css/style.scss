@@ -13,8 +13,13 @@ section.navigation {
     background-color: $nav-bg-color;
 }
 
+ul.navigation {
+    margin: 1em 0 1em 0;
+}
+
 li.navigation {
     display: block;
+    padding: .3em 0 .3em 0;
 
     &:hover {
         display: block;
