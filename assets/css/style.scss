@@ -28,7 +28,7 @@ section.content {
 }
 
 h1.project-header {
-    margin: 0;
+    margin: 0 5em 0 2em;
     display: inline-flex;
 }
 
@@ -40,4 +40,5 @@ h2.project-header {
 .page-header {
     color: $header-heading-color;
     background-color: $header-bg-color;
+    padding: 1em
  }
