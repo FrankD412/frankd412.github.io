@@ -27,16 +27,14 @@ section.content {
     display: block;
 }
 
-.project-header {
-    h1 {
-        display: inline-flex;
-        margin: 0;
-    }
+h1.project-header {
+    display: inline-flex;
+    margin: 0;
+}
 
-    h2 {
-        display: inline-flex;
-        margin: 0;
-    }
+h2.project-header {
+    display: inline-flex;
+    margin: 0;
 }
 
 .page-header {
