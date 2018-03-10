@@ -29,11 +29,12 @@ section.content {
 
 h1.project-header {
     margin: 0;
-    display: flex;
+    display: inline-flex;
 }
 
 h2.project-header {
     margin: 0;
+    display: inline-flex;
 }
 
 .page-header {
