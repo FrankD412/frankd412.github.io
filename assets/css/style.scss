@@ -4,46 +4,98 @@
 @import 'jekyll-theme-cayman';
 
 div.default-content {
-    display: grid;
-    grid-template-columns: 25% auto;
-    background-color: $content-bg-color;
+  display: grid;
+  grid-template-columns: 10% auto;
+  background-color: $content-bg-color;
 }
 
 section.navigation {
-    background-color: $nav-bg-color;
+  background-color: $nav-bg-color;
+  text-align: center;
 }
 
 ul.navigation {
-    margin: 1em 0 1em 0;
+  margin: 1em 0;
+  padding: 0;
+  text-align: center;
 }
 
 li.navigation {
-    display: block;
-    padding: .3em 0 .3em 0;
+  display: block;
+  padding: 0.3em 0;
+  position: relative;
 
-    &:hover {
-        display: block;
-        background-color: $content-bg-color;
-        color: white;
+  &:hover {
+    a {
+      color: white;
+      text-decoration: none;
     }
+    display: block;
+    background-color: $content-bg-color;
+    color: white;
+  }
+}
+
+a {
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 section.content {
-    display: block;
+  display: block;
+  text-align: center;
 }
 
 h1.project-header {
-    margin: 0 .5em 0 .2em;
-    display: inline-flex;
+  margin: 0 0.5em 0 0.2em;
+  display: inline-flex;
 }
 
 h2.project-header {
-    margin: 0;
-    display: inline-flex;
+  margin: 0;
+  display: inline-flex;
 }
 
 .page-header {
-    color: $header-heading-color;
-    background-color: $header-bg-color;
-    padding: 1em
- }
+  color: $header-heading-color;
+  background-color: $header-bg-color;
+  padding: 1em;
+}
+
+ul.index-bio {
+  display: inline-block;
+  text-align: left;
+}
+
+li.index-bio {
+  width: 15%;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+// Animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-up {
+  -webkit-animation: fadeInUp 2s;
+  animation: fadeInUp 2s;
+}
