@@ -314,7 +314,7 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
-div.default-content { display: grid; grid-template-columns: 10% auto; background-color: #1a1a1a; }
+div.default-content { display: grid; grid-template-columns: 15% auto; background-color: #1a1a1a; }
 
 section.navigation { background-color: #f2f2f2; text-align: center; }
 
@@ -326,13 +326,21 @@ li.navigation:hover a { color: white; text-decoration: none; }
 
 a:hover { color: white; text-decoration: none; }
 
-section.content { display: block; text-align: center; }
+section.content { display: block; text-align: center; padding: 1em 1em 1em 1em; }
 
-h1.project-header { margin: 0 0.5em 0 0.2em; display: inline-flex; }
+h1.project-header { margin: 0 0.5em 0 0.2em; }
 
-h2.project-header { margin: 0; display: inline-flex; }
+span.project-header { margin: 0 0.5em 0 0.2em; }
 
-.page-header { color: #fff; background-color: black; padding: 1em; }
+a.contact-item { margin: 0.5em; }
+
+i.contact-item { margin-right: 0.5em; }
+
+section.contact-item { display: flex; align-items: center; justify-self: right; padding-right: 5em; }
+
+.page-header { display: grid; color: #fff; background-color: black; grid-template-columns: 50% auto; padding: 1em; }
+
+.header-section { margin: 0; }
 
 ul.index-bio { display: inline-block; text-align: left; }
 
