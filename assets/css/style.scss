@@ -67,13 +67,14 @@ i.contact-item {
 
 section.contact-item {
     justify-self: right;
+    padding-right: 5em;
 }
 
 .page-header {
     display: grid;
     color: $header-heading-color;
     background-color: $header-bg-color;
-    grid-template-columns: 75% auto;
+    grid-template-columns: 50% auto;
     padding: 1em;
 }
 
