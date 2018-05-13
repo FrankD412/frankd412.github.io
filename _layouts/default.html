@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
     {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -11,14 +11,28 @@
   </head>
   <body>
     <div class="page-header">
-        <h1 class="project-header">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-header fade-in-up">{{ site.description | default: site.github.project_tagline }}</h2>
+        <section class="header-section">
+            <h1 class="project-header">
+                {{ site.title | default: site.github.repository_name }}
+            </h1>
+            <h2 class="project-header fade-in-up">
+                {{ site.description | default: site.github.project_tagline }}
+            </h2>
+        </section>
+        <section class="header-section contact-item">
+            {% for contact in site.data.contact %}
+                <a class="contact-item" href="{{ contact.url }}">
+                    <i class="{{ contact.icon }}"></i>
+                    {{ contact.name }}
+                </a>
+            {% endfor %}
+        </section>
     </div>
     <div class="default-content">
         <section class="navigation">
             <ul class="navigation">
                 {% for nav in site.data.navigation %}
-                  <li class="navigation"><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></li>
+                    <li class="navigation"><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></li>
                 {% endfor %}
             </ul>
         </section>
