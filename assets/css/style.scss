@@ -55,13 +55,32 @@ h1.project-header {
 
 h2.project-header {
   margin: 0;
-  display: inline-flex;
+}
+
+a.contact-item {
+    margin: 0.5em;
+}
+
+i.contact-item {
+    margin-right: 0.5em;
+}
+
+section.contact-item {
+    justify-self: right;
+    padding-right: 5em;
 }
 
 .page-header {
-  color: $header-heading-color;
-  background-color: $header-bg-color;
-  padding: 1em;
+    display: grid;
+    color: $header-heading-color;
+    background-color: $header-bg-color;
+    grid-template-columns: 50% auto;
+    padding: 1em;
+}
+
+.header-section {
+    margin: 0;
+    display: inline-flex;
 }
 
 ul.index-bio {
