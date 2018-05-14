@@ -3,28 +3,32 @@ layout: default
 permalink: /
 ---
 
-<image src="{{ site.url }}/images/profilepic.jpg" class="profile-image" alt="Who's that dapper fellow?"/>
-<p>
-    {{ site.data.info.position }}
-    <br/>
-    <a href="{{ site.data.info.company_url }}">
-        {{ site.data.info.company }}
-    </a>
-</p>
-<ul class="index-bio">
-    <li class="index-bio">
-        <a href="mailto:{{ site.data.info.w_email }}">
-            {{ site.data.info.w_email }}
+<div class="about-me">
+    <section class="about-me-header">
+        <image src="{{ site.url }}/images/profilepic.jpg" class="profile-image" alt="Who's that dapper fellow?"/>
+        <br/>
+        <p class="about-me-contacts">
+            {% for contact in site.data.contact %}
+                <a href="{{ contact.url }}" target="_blank">
+                    <i class="{{ contact.icon }}"></i>
+                </a>
+            {% endfor %}
+        </p>
+        <br/>
+        {{ site.data.info.location }}
+        <br/>
+        {{ site.data.info.position }}
+        <br/>
+        <a href="{{ site.data.info.company_url }}" target="_blank">
+            {{ site.data.info.company }}
         </a>
-    </li>
-    <li class="index-bio">
-        <a href="{{ site.data.info.linkedin }}">
-            LinkedIn
-        </a>
-    </li>
-    <li class="index-bio">
-        <a href="{{ site.data.info.github }}">
-            GitHub
-        </a>
-    </li>
-</ul>
+        <br/>
+        {{ site.data.info.division }}
+    </section>
+    <hr/>
+    <section class="about-me">
+        <p>
+            {{ site.data.info.about }}
+        </p>
+    </section>
+</div>
