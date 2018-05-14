@@ -1,8 +1,11 @@
 - title: "About Me"
   href: "/"
 
-- title: "Projects"
-  href: "/projects/"
+- title: "Experience"
+  href: "/experience.html"
 
-- title: "Contact Me"
-  href: "/contact/"
+- title: "Projects"
+  href: "/projects.html"
+
+- title: "Resume"
+  href: "/resume.html"

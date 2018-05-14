@@ -1,0 +1,18 @@
+- company: Lawrence Livermore National Laboratory
+  start: June 2016
+  end: Present
+  positions:
+      - name: Computer Scientist
+        description:
+            description here.
+
+- company: Intel Corportation
+  start: Febuary 2014
+  end: May 2016
+  positions:
+      - name: Power and Performance Architect
+        description:
+            description here.
+      - name: Server Performance Architect
+        description:
+            description here.
