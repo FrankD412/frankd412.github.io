@@ -69,6 +69,10 @@ section.about-me-header {
     align-items: center;
 }
 
+section.about-me {
+    padding: 1em 3em;
+}
+
 p.about-me-contacts {
     display: inline-grid;
     grid-template-columns: 33.33% auto 33.33%;
