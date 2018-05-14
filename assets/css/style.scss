@@ -65,6 +65,18 @@ i.contact-item {
     margin-right: 0.5em;
 }
 
+section.about-me-header {
+    align-items: center;
+}
+
+p.about-me-contacts {
+    display: inline-grid;
+    grid-template-columns: 33.33% auto 33.33%;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
 section.contact-item {
     display: flex;
     align-items: center;
