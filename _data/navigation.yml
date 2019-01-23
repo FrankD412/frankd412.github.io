@@ -1,8 +1,4 @@
-- title: "About Me"
-  href: "/"
+# Site navigation links
 
-- title: "Projects"
-  href: "/projects.html"
-
-- title: "Resume"
-  href: "/resume.html"
+- title: Projects
+  url: /projects/
