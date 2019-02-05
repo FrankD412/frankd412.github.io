@@ -30,7 +30,8 @@ disqus_shortname:   frankd412
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
+  scholar:          AglJpwsAAAAJ
   #plus:            #username
   #analytics:
   #verify:
@@ -63,7 +64,7 @@ linkedin:           francesco-di-natale-08330867
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
