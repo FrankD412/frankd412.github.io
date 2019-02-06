@@ -6,7 +6,6 @@
 				<a href="#">About</a>
 				<ul class="dl-submenu">
 					<li>
-						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo">
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
@@ -22,6 +21,9 @@
                     </li>{% endif %}
                     {% if site.google.plus %}<li>
                         <a href="http://plus.google.com/+{{ site.google.plus }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>
+                    </li>{% endif %}
+                    {% if site.google.scholar %}<li>
+                        <a href="https://scholar.google.com/citations?user={{ site.google.scholar }}&hl=en&oi=sra{{ site.google.scholar }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-fw ai-google-scholar"></i> Google Scholar</a>
                     </li>{% endif %}
                     {% if site.linkedin %}<li>
                         <a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
