@@ -32,10 +32,3 @@ And finally, above all else -- always seek to do better than you did yesterday. 
     {{ site.url }}/assets/img/rey/photo3.jpg
 {% endcapture %}
 {% include gallery images=images caption="Obligatory photos of my dog" cols=2 %}
-
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
