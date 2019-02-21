@@ -25,12 +25,21 @@ layout: compress
                     {% for post in site.posts %}
                         {% if post.project == null %}
                     <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                        <li class="wow fadeInLeft post" data-wow-duration="1.5s">
+                            <a class="post zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            <p class="post">{{ post.excerpt }}</p>
+                            <ul class="entry-meta inline-list">
+                                {% for tag in post.tags %}
+                                    <li>
+                                        <a href="{{ site.url }}/tags/#{{tag}}" class="tag">
+                                            <span class="term">{{tag}}</span>
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
                         </li>
                     </ul>
+                    <hr/>
                         {% endif %}
                     {% endfor %}
                 </div>

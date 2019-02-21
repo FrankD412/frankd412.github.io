@@ -44,13 +44,14 @@ h3.title a {
 		list-style: none;
 		padding-left: 0;
 	}
-	li {
+
+	li.post {
 		padding: 10px 18px;
 		margin: 0 10px;
 		text-decoration: none;
 		background: $white;
 		color: $color_shark;
-		a {
+		a.post {
 			@include font-rem(20);
 			text-decoration: none;
 			color: $color_shark;
@@ -59,7 +60,7 @@ h3.title a {
                 color: $red;
             }
 		}
-		p {
+		p.post {
 			font-weight: lighter;
 			@include font-rem(16);
 		}
