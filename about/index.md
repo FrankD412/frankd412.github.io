@@ -32,7 +32,16 @@ And finally, above all else -- always seek to do better than you did yesterday. 
 ---
 ## Interests, Passions, and Hobbies
 
-I have a wide range of interests, hobbies and passions. My technical interests include (but are not limited to) Software Engineering, Software Design, Computer Architecture, simulation, simulation and software automation, Object-Oriented Design, Python, and HPC. In the realm of softer technical skills, my interests include project management, requirements gathering, and agile methodologies.
+I have a wide range of interests, hobbies and passions. My technical interests include (but are not limited to) Software Engineering, Software Design, Computer Architecture, simulation, simulation and software automation, Object-Oriented Design, Python, and HPC. In the realm of softer technical skills, my interests include project management, requirements gathering, and agile methodologies. Relatedly, I'm passionate about understanding and providing feedback on organizational culture, especially in relation to younger employees and retention.
+
+My hobbies vary quite a bit -- I'm currently working on learning to knit, but my other hobbies include (and probably are not limited to):
+
+* Building and painting [Gunpla](https://en.wikipedia.org/wiki/Gundam_model)
+* Cooking
+* 3D Printing
+* Gaming (currently I mainly play the Nintendo Switch)
+* Learning about code (trying to become familiar with the n-body problem)
+* Anime
 
 ---
 ## Contact me
