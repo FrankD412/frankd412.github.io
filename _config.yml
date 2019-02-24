@@ -33,25 +33,21 @@ disqus_shortname:   Frank
 google:
   scholar:          AglJpwsAAAAJ
   #plus:            #username
-  #analytics:
+  analytics:        UA-134990036-1
   #verify:
   #ad-client:
   #ad-slot:
 #bing-verify:
 email:              frank.dinatale1988@gmail.com
-#twitter:            username
-#facebook:           username
 github-url:         FrankD412
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:           francesco-di-natale-08330867
 #xing:              username
-#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
@@ -63,12 +59,19 @@ linkedin:           francesco-di-natale-08330867
 #xmpp:              username@server.com
 #hackernews:        username
 
+social:
+  steam:          ErisD
+  instagram:      sciencenerd1182
+  twitter:        therapiditalian
+  #facebook:      username
+
 # Gems
 plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-scholar
 
 jekyll-mentions:
     base_url: https://github.com
