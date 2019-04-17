@@ -1,0 +1,31 @@
+.photobanner {
+    overflow: hidden;
+    height: 200px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    animation-play-state: running;
+    animation: bannermove 30s linear infinite;
+
+    @include clearfix();
+
+    &:hover {
+        animation-play-state: paused;
+    }
+
+    img {
+        margin-bottom: 10px;
+        @include rounded(4px);
+    }
+
+    a {
+        object-fit: contain;
+    }
+}
+
+
+.gallery-image {
+    &:hover {
+		opacity: $opacity;
+	}
+}
