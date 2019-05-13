@@ -14,14 +14,35 @@ comments: false
 ## Current Experience
 I currently work as a Project Lead, Computer Scientist, and Software Engineer at [Lawrence Livermore National Laboratory](https://www.llnl.gov) in the areas of HPC simulation, simulation management, and software workflow automation. My primary roles are:
 
-+ Project Lead and author of the Maestro Workflow Conductor, a Python command line tool and library for specifying, automating, and monitoring software workflows. For more information checkout the Maestro on [GitHub](https://github.com/LLNL/maestrowf) and my associated project [page]({{ site.url }}/maestro-workflow-conductor/).
++ Project Lead and author of the Maestro Workflow Conductor, a Python command line tool and library for specifying, automating, and monitoring software workflows. For more information checkout the Maestro GitHub [page]](https://github.com/LLNL/maestrowf) and my associated [project page]({{ site.url }}/maestro-workflow-conductor/).
 
 + Workflow Computer Science expert for the RAS protein pilot project (one of three pilots of [JDACS4C](https://datascience.cancer.gov/collaborations/joint-design-advanced-computing)). Our mission aims at scaling molecular dynamics to long enough timescales to better understand the RAS protein and its role in the development of cancer. Our team has successfully run large scale MD simulation campaigns on Sierra, the second fastest supercomputer on the [TOP500 list](https://www.top500.org/lists/2018/11/) (as of November 2018). As part of an interdisciplinary team of scientists, my responsibilities include managing the project's code repositories, providing guidance on workflow/code design, and implementing new features.
 
 ---
 ## Skills and Proficiencies
-Stub
-
+<h6><strong>Excellent</strong> Go-to tools
+    <span>★ ★ ★</span>
+</h6>
+    <ul>
+        <li>Python, Git, GitHub, Bash, LaTeX, SLURM, LSF, Unix</li>
+    </ul>
+<h6><strong>Proficient</strong> Competent and comfortable
+    <span>★ ★ ☆</span>
+</h6>
+    <ul>
+        <li>C++, C, C#, CSS, HTML, Linux</li>
+    </ul>
+<h6><strong>Basic</strong> Essential foundation and basics
+    <span>★ ☆ ☆</span>
+</h6>
+    <ul>
+        <li>Ruby, Java, SQL</li>
+    </ul>
+<h6><strong>Domain Knowledge</strong> Fundamental Concepts
+    <ul>
+        <li>Software Engineering, Python, Agile/Scrum Development Methods, Software System Design, Object Oriented Design, Algorithms, Simulation, Workflow automation and tools, HPC, Advanced Computer Architecture</li>
+    </ul>
+</h6>
 ---
 ## Interests and Past Experience
 
