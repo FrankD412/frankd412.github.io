@@ -20,29 +20,28 @@ I currently work as a Project Lead, Computer Scientist, and Software Engineer at
 
 ---
 ## Skills and Proficiencies
-<h6><strong>Excellent</strong> Go-to tools
+<h3><strong>Excellent</strong> Go-to tools
     <span>★ ★ ★</span>
-</h6>
-    <ul>
-        <li>Python, Git, GitHub, Bash, LaTeX, SLURM, LSF, Unix</li>
-    </ul>
-<h6><strong>Proficient</strong> Competent and comfortable
+</h3>
+<ul>
+    <li>Python, Git, GitHub, Bash, LaTeX, SLURM, LSF, Unix</li>
+</ul>
+<h3><strong>Proficient</strong> Competent and comfortable
     <span>★ ★ ☆</span>
-</h6>
-    <ul>
-        <li>C++, C, C#, CSS, HTML, Linux</li>
-    </ul>
-<h6><strong>Basic</strong> Essential foundation and basics
+</h3>
+<ul>
+    <li>C++, C, C#, CSS, HTML, Linux</li>
+</ul>
+<h3><strong>Basic</strong> Essential foundation and basics
     <span>★ ☆ ☆</span>
-</h6>
-    <ul>
-        <li>Ruby, Java, SQL</li>
-    </ul>
-<h6><strong>Domain Knowledge</strong> Fundamental Concepts
-    <ul>
-        <li>Software Engineering, Python, Agile/Scrum Development Methods, Software System Design, Object Oriented Design, Algorithms, Simulation, Workflow automation and tools, HPC, Advanced Computer Architecture</li>
-    </ul>
-</h6>
+</h3>
+<ul>
+    <li>Ruby, Java, SQL</li>
+</ul>
+<h3><strong>Domain Knowledge</strong> Fundamental Concepts</h3>
+<ul>
+    <li>Software Engineering, Python, Agile/Scrum Development Methods, Software System Design, Object Oriented Design, Algorithms, Simulation, Workflow automation and tools, HPC, Advanced Computer Architecture</li>
+</ul>
 ---
 ## Interests and Past Experience
 
