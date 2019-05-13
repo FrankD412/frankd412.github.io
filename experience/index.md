@@ -20,25 +20,25 @@ I currently work as a Project Lead, Computer Scientist, and Software Engineer at
 
 ---
 ## Skills and Proficiencies
-<h3><strong>Excellent</strong> Go-to tools
-    <span>★ ★ ★</span>
+<h3><strong>Excellent</strong> <a style="font-size:80%">Go-to tools</a>
+    <span><small>★ ★ ★</small></span>
 </h3>
 <ul>
     <li>Python, Git, GitHub, Bash, LaTeX, SLURM, LSF, Unix</li>
 </ul>
-<h3><strong>Proficient</strong> Competent and comfortable
-    <span>★ ★ ☆</span>
+<h3><strong>Proficient</strong> <a style="font-size:80%">Competent and comfortable</a>
+    <span><small>★ ★ ☆</small></span>
 </h3>
 <ul>
     <li>C++, C, C#, CSS, HTML, Linux</li>
 </ul>
-<h3><strong>Basic</strong> Essential foundation and basics
-    <span>★ ☆ ☆</span>
+<h3><strong>Basic</strong> <a style="font-size:80%">Essential foundation and basics</a>
+    <span><small>★ ☆ ☆</small></span>
 </h3>
 <ul>
     <li>Ruby, Java, SQL</li>
 </ul>
-<h3><strong>Domain Knowledge</strong> Fundamental Concepts</h3>
+<h3><strong>Domain Knowledge</strong> <a style="font-size:80%">Fundamental Concepts</a></h3>
 <ul>
     <li>Software Engineering, Python, Agile/Scrum Development Methods, Software System Design, Object Oriented Design, Algorithms, Simulation, Workflow automation and tools, HPC, Advanced Computer Architecture</li>
 </ul>
