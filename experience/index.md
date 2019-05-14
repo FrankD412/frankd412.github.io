@@ -20,7 +20,7 @@ I currently work as a Project Lead, Computer Scientist, and Software Engineer at
 
 ---
 ## Skills and Proficiencies
-<h3><strong>Excellent</strong> <a style="font-size:85%">(Go-to tools)</a>
+<h3><strong>Excellent</strong> <a style="font-size:80%">(Go-to tools)</a>
     <span><small>★ ★ ★</small></span>
 </h3>
 <ul>
