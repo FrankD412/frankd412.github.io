@@ -76,5 +76,15 @@ plugins:
 jekyll-mentions:
     base_url: https://github.com
 
+scholar:
+    style: mla
+    locale: en
+    sort_by: year
+    order: descending
+    bibliography_list_tag: ul
+
+
+  query: "@*"
+
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
