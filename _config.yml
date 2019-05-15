@@ -74,16 +74,14 @@ plugins:
   - jekyll-scholar
 
 jekyll-mentions:
-    base_url: https://github.com
+  base_url: https://github.com
 
 scholar:
-    style: mla
-    locale: en
-    sort_by: year
-    order: descending
-    bibliography_list_tag: ul
-
-
+  style: mla
+  locale: en
+  sort_by: year
+  order: descending
+  bibliography_list_tag: ul
   query: "@*"
 
 # Exclude list
