@@ -65,9 +65,6 @@ social:
   twitter:        therapiditalian
   #facebook:      username
 
-gems:
-  - 'jekyll/scholar'
-
 # Gems
 plugins:
   - jekyll-mentions
