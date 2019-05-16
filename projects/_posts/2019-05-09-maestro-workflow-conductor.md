@@ -32,3 +32,5 @@ When performing scientific software workflows, there are a few desirable propert
 - Shareability. A workflow should be easy given to other users with minimal coupling to any one user's environment.
 
 ## Citations
+
+{% bibliography %}
