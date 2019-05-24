@@ -1,2 +1,4 @@
 # Compiled local files
 Gemfile.lock
+**/.DS_Store
+_site/
