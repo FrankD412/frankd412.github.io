@@ -73,9 +73,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-scholar
+  - jekyll-relative-links
 
 jekyll-mentions:
   base_url: https://github.com
+
+relative-links:
+    enabled:     true
+    collections: true
 
 scholar:
   locale: en

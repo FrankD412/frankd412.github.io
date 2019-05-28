@@ -6,3 +6,4 @@ gem "jekyll-gist"
 gem 'jekyll-mentions'
 gem 'jekyll-feed'
 gem 'jekyll-scholar'
+gem 'jekyll-relative-links'
