@@ -8,6 +8,7 @@ tag:
 - how-to
 - technical
 - jekyll
+- blog
 comments: false
 ---
 
@@ -25,7 +26,9 @@ Set up local building and deploying
 Setting up local deployment is going to be the first step to getting this all to work, but it's also beneficial because it means you can test your website without having to constantly commit to your repository and wait for GitHub to build your webpage for you. Taking the commits out of the loop really speeds up your ability to try new things, catch errors ahead of time, and makes the whole website development thing less clumsy. And let's be honest: it saves you the embarrassment of having deployed a broken website, because once that's on the internet it's there forever.
 
 
-> Note: I will caveat this section with the fact that I've only ever gotten this to work in a Unix environment. I develop on a MacBook, but see no reason why these steps shouldn't work on a Linux VM. That said, I did attempt to get a Docker container for building and local testing running and found it miserably difficult to do so, which means this guide won't work on Windows. I'll be sure to make another blog post if I manage to figure that one out.
+<aside class="notice">
+Note: I will caveat this section with the fact that I've only ever gotten this to work in a Unix environment. I develop on a MacBook, but see no reason why these steps shouldn't work on a Linux VM. That said, I did attempt to get a Docker container for building and local testing running and found it miserably difficult to do so, which means this guide won't work on Windows. I'll be sure to make another blog post if I manage to figure that one out.
+</aside>
 
 
 So, what do you need to do to get set up? First things first, you're going to need to install `ruby`. For me, that was as simple as `brew install ruby` and a simple .zshrc file update. If you're on any modern distro of Linux/Unix (or even an older one), you can most likely run `apt-get install ruby` or `npm install ruby`. With that installation you will now have access to `gems`, which is really what we want out of all of this (don't worry, you won't be coding in ruby). Once that's done, you'll want to run the following commands. The output should look similar to the following:
@@ -103,6 +106,7 @@ Configuration file: /Users/frank/Documents/Code/Website/frankd412.github.io/_con
 ```
 
 The `--incremental` flag continues to monitor changes to the repository, rebuilding the repository on the fly as you change files. You can also build the website without serving it locally by running `bundle exec jekyll build`. Adding new pages or posts usually requires a rebuild, which `serve` does not handle.
+
 <br/>
 
 Deploying your GitHub Page Statically
@@ -128,7 +132,9 @@ Configuration file: /Users/frank/Documents/Code/Website/frankd412.github.io/_con
  > git subtree push --prefix _site origin master
 ```
 
-> The folder `_site` above is where my build places my compiled website. Your website may be configured differently, so make sure to correct the name of the folder for your own naming.
+<aside class="notice">
+The folder `_site` above is where my build places my compiled website. Your website may be configured differently, so make sure to correct the name of the folder for your own naming.
+</aside>
 
 And that should do it. You now commit code to the src branch and push a subtree to master when you're ready to publish. It's as simple as that.
 <br/>
