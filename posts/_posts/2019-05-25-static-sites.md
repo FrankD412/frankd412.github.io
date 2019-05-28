@@ -135,6 +135,9 @@ Configuration file: /Users/frank/Documents/Code/Website/frankd412.github.io/_con
 
 <aside class="notice">
 The folder `_site` above is where my build places my compiled website. Your website may be configured differently, so make sure to correct the name of the folder for your own naming.
+<br/>
+<br/>
+<strong>IMPORTANT</strong>: You MUST rebuild your site using `bundle exec jekyll build` and commit the compiled site folder to your src branch. If you've been testing locally, rebuilding gets rid of any `localhost` references in the statically compiled pages. You must also commit for git to be able to refer to the node in the `src` branch when mapping a subtree.
 </aside>
 
 And that should do it. You now commit code to the src branch and push a subtree to master when you're ready to publish. It's as simple as that.
