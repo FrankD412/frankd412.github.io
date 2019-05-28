@@ -4,6 +4,7 @@ title:  "Maestro Workflow Conductor (maestrowf)"
 date:   2019-05-11
 excerpt: "A Python command line tool and library for specifying, automating, and monitoring HPC software workflows."
 project: true
+permalink: /projects/:title
 tag: [python, simulations, hpc, simulation workflow, open source]
 comments: false
 ---
