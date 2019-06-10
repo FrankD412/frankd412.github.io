@@ -199,10 +199,10 @@ header .entry-meta {
     }
     @media #{$medium} {
         color: white;
-        padding: 4em;
+        padding: 3em;
         margin-left: -4rem;
         margin-right: -4rem;
-        margin-top: -2rem;
+        margin-top: -4rem;
         border-radius: 3px 3px 0 0;
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
@@ -210,13 +210,26 @@ header .entry-meta {
     }
     @media #{$notsmall} {
         color: white;
-        padding: 10em;
+        padding: 3em;
         margin-left: -4rem;
         margin-right: -4rem;
-        margin-top: -2rem;
+        margin-top: -4rem;
         border-radius: 3px 3px 0 0;
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
         background-position: center center;
     }
+}
+
+.breadcrumbs {
+	text-align: left;
+	margin: 0 0 0 1.5rem;
+}
+
+.breadcrumb-feature {
+	color: white;
+
+	&:link {
+		color: white;
+	}
 }
