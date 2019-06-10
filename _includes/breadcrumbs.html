@@ -7,14 +7,15 @@
 {% endif %}
 
 {% assign route="" %}
-
-<a href="{{ '/' | absolute_url }}"><i class="fa fa-home"></i></a>
+<div class="breadcrumbs {% if page.feature %}breadcrumb-feature{% endif %}">
+<a href="{{ '/' | absolute_url }}"><i class="fa fa-home {% if page.feature %}breadcrumb-feature{% endif %}"></i></a>
 {% for category in categories %}
-<span class="prompt"> >> </span>
+<span class="{% if page.feature %}breadcrumb-feature{% endif %} prompt"> >> </span>
 {% assign route = route | append: '/' | append: category %}
 {% if forloop.last %}
-{% if include.title %}{{include.title}}{% else %}{{ category }}{% endif %}
+<span {% if page.feature %}class="breadcrumb-feature"{% endif %}>{% if include.title %}{{include.title}}{% else %}{{ category }}{% endif %}</span>
 {% else %}
-<a href="{{ route | absolute_url }}">{{ category | capitalize }}</a>
+<a href="{{ route | absolute_url }}" {% if page.feature %}class="breadcrumb-feature"{% endif %}>{{ category | capitalize }}</a>
 {% endif %}
 {% endfor %}
+</div>
