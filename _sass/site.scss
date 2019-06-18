@@ -228,8 +228,8 @@ header .entry-meta {
 }
 
 div.breadcrumb-feature {
-	color: white;
-	margin: 1.5rem 0 0 1.5rem;
+	color: $feature_breadcrumb;
+	margin: 0 0 4rem 1.5rem;
 
 	a:visited {
 		color: $feature_visited;
