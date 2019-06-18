@@ -7,8 +7,8 @@
 {% endif %}
 
 {% assign route="" %}
-<div class="breadcrumbs {% if page.feature %}breadcrumb-feature{% endif %}">
-<a href="{{ '/' | absolute_url }}"><i class="fa fa-home {% if page.feature %}breadcrumb-feature{% endif %}"></i></a>
+<div class="breadcrumbs breadcrumb-feature">
+<a href="{{ '/' | absolute_url }}"><i class="fa fa-home breadcrumb-feature"></i></a>
 {% for category in categories %}
 <span class="prompt"> >> </span>
 {% assign route = route | append: '/' | append: category %}
