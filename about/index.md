@@ -5,7 +5,6 @@ tags: [about, philosophy, interests, contact]
 date: 2016-02-04
 comments: false
 ---
-
 ---
 ## About me
 
