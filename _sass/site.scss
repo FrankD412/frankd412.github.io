@@ -237,3 +237,9 @@ div.breadcrumb-feature {
 		color: $feature_visited;
 	}
 }
+
+a.tooltip {
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
