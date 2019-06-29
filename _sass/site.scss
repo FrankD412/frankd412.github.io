@@ -226,12 +226,16 @@ header .entry-meta {
 }
 
 .breadcrumbs {
-	text-align: left;
+	text-align: center;
+
+	hr {
+		margin: .5em 0;
+	}
 }
 
 div.breadcrumb-feature {
 	color: $feature_breadcrumb;
-	margin: 0 0 4rem 1.5rem;
+	margin: 0 0 1.5rem 0;
 
 	a:visited {
 		color: $feature_visited;

@@ -5,7 +5,6 @@ tags: [about, philosophy, interests, contact]
 date: 2016-02-04
 comments: false
 ---
----
 ## About me
 
 If I had to describe myself in the broadest of terms, it'd be a nerd, Software Engineer, and science enthusiast. In more specific terms, I am:

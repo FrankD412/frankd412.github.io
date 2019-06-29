@@ -5,12 +5,8 @@ tags: [resume, experience, about]
 date: 2019-05-11
 comments: false
 ---
-
----
-
 **NOTE:** This page is currently in progress. For the time being, you can find my full resume [here]({{ site.url }}/assets/data/DiNataleF_Resume.pdf).
 
----
 ## Current Experience
 I currently work as a Project Lead, Computer Scientist, and Software Engineer at [Lawrence Livermore National Laboratory](https://www.llnl.gov) in the areas of HPC simulation, simulation management, and software workflow automation. My primary roles are:
 
