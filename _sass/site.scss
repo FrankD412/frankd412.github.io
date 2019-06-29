@@ -226,7 +226,11 @@ header .entry-meta {
 }
 
 .breadcrumbs {
-	text-align: left;
+	text-align: center;
+
+	hr {
+		margin: .5em 0;
+	}
 }
 
 div.breadcrumb-feature {
