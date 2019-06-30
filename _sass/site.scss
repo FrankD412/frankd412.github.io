@@ -236,6 +236,11 @@ header .entry-meta {
 div.breadcrumb-feature {
 	color: $feature_breadcrumb;
 	margin: 0 0 1.5rem 0;
+	opacity: .5;
+
+	&:hover {
+		opacity: 1;
+	}
 
 	a:visited {
 		color: $feature_visited;
