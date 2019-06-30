@@ -8,7 +8,16 @@
 .tooltip {
   position: relative;
   display: inline;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  text-decoration: dashed;
+  text-decoration-line: underline;
+  text-decoration-color: $color_tuatara;
+
+  &:hover {
+    //text-decoration-color: $link_color;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+  }
+  
 }
 
 /* Tooltip text */
