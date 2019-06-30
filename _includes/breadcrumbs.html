@@ -11,7 +11,7 @@
 <hr />
 <a href="{{ '/' | absolute_url }}"><i class="fa fa-home breadcrumb-feature"></i></a>
 {% for category in categories %}
-<span class="prompt"> >> </span>
+<span class="prompt"> > </span>
 {% assign route = route | append: '/' | append: category %}
 {% if forloop.last %}
 <span>{% if include.title %}{{include.title}}{% else %}{{ category }}{% endif %}</span>
