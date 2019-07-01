@@ -5,7 +5,7 @@ date:   2019-06-23
 excerpt: ""
 tag: [blog, kerbal space program, science, space, gaming, physics]
 comments: false
-published: true
+published: false
 ---
 
 One of the things I've been doing lately is trying to learn more about [orbital mechanics](https://en.wikipedia.org/wiki/Orbital_mechanics){:target="_blank"}. While I didn't get a degree in Physics or work in the field of Planetary Science, it's something that's been consistently in my to-learn list. In the last few months, I've picked up [Kerbal Space Program](https://www.kerbalspaceprogram.com/){:target="_blank"} again and decided to do my best to make the most of it. As part of this blog, I've decided to try and consolidate my learnings in a way that I can easily go back and reference, but also in hopes that some folks out there on the internet might find it useful.
