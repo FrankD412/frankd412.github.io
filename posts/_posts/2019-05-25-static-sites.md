@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Setup Statically Built GitHub Pages"
-date:   2019-05-25
+date:   2019-07-01
 excerpt: "After struggling with trying to figure out static builds with various guides, I found out just how simple it was to release a staticly built jekyll site. Here's a how to on how to do it with your own personal github.io webpage."
 tag:
 - web dev
@@ -10,7 +10,7 @@ tag:
 - jekyll
 - blog
 comments: false
-published: false
+published: true
 ---
 
 So, this how-to is mostly just an impromptu post so that it's documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the `jekyll-scholar` gem working on my personal webpage (this very one that you're on in fact). In this post, I'll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.
