@@ -9,6 +9,7 @@ background:         'assets/img/0R2lvn.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://frankd412.github.io
+published:          2019
 
 # Jekyll
 permalink:          :categories/:title/
