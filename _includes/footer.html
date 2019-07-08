@@ -1,1 +1,8 @@
-<p><i>Copyright © {{ 'now' | date: "%Y" }} Francesco Di Natale</i></p>
+{% capture cur_year %}{{ site.time | date: "%Y" }}{% endcapture %}
+{% capture ref %}{{ site.published }}{% endcapture %}
+{% if cur_year == ref %}
+    {% assign cright = cur_year %}
+{% else %}
+    {% assign cright =  site.published | append: " - " | append: cur_year %}
+{% endif %}
+<div class="copyright"><i>Copyright © {{ cright }} Francesco Di Natale</i></div>
