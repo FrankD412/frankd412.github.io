@@ -42,3 +42,7 @@ I currently work as a Project Lead, Computer Scientist, and Software Engineer at
 ## Interests and Past Experience
 
 My technical interests include (but are not limited to) Software Engineering, Software Design, Computer Architecture, simulation, simulation and software automation, Object-Oriented Design, Python, and HPC. I initially started with an interest in Computer Architecture, which led me to become a Performance Architect at Intel Corporation. My experiences at Intel maintaining simulators, running large numbers of simulations, and using the results to make architectural assessments allowed me to appreciate the software systems required to perform computational studies. Through these experiences I broadened my interests to simulation software workflows, co-designing and implementing Study Launcher, a workflow launcher that utilized an XML specification. In May 2016, I joined [Lawrence Livermore National Laboratory](https://www.llnl.gov) as a Computer Scientist and workflow expert.
+
+## Publications
+
+{% bibliography --file mypapers %}

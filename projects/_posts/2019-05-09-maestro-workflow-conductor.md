@@ -4,7 +4,7 @@ title:  "Maestro Workflow Conductor (maestrowf)"
 date:   2019-05-11
 excerpt: "A Python command line tool and library for specifying, automating, and monitoring HPC software workflows."
 project: true
-tag: [python, simulations, hpc, simulation workflow, open source]
+tag: [python, simulations, hpc, scientific computing, software workflow, open source]
 comments: false
 ---
 
@@ -17,7 +17,11 @@ comments: false
 
 ## Overview
 
-Maestro is a Python library and command line tool for automating and monitoring software workflows that I authored at [LLNL](https://www.llnl.gov). The main concept centers around conducting "studies" using independent workflow steps that are chained together by user specified time-order dependency. A study is defined in a YAML file that Maestro denotes as a "study specification". A specification can be user written or programmatically generated. Maestro parses the a study specification, generating standard data structures for setting up, executing, and monitoring a study.
+### What is Maestro?
+Maestro is a Python library and command line tool for automating and monitoring software workflows that I authored at [LLNL](https://www.llnl.gov). The main concept centers around conducting "studies" using independent workflow steps that are chained together by user specified execution-order dependency. A study is defined in a YAML file that Maestro denotes as a "study specification". A specification can be user written or programmatically generated. Maestro parses the a study specification, generating standard data structures for setting up, executing, and monitoring a study.
+
+### Why did you create Maestro?
+
 
 ## Core Design Principles
 
@@ -33,4 +37,4 @@ When performing scientific software workflows, there are a few desirable propert
 
 ## Citations
 
-{% bibliography %}
+{% bibliography --file maestro %}
