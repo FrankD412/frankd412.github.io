@@ -84,12 +84,13 @@ relative-links:
     collections: true
 
 scholar:
-  locale: en
-  sort_by: year
-  order: descending
+  locale:   en
+  sytle:    apa
+  sort_by:  year
+  order:    descending
+  query:    "@*"
+  source:   assets/data/
   bibliography_list_tag: ul
-  query: "@*"
-  source: assets/data/
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
