@@ -21,8 +21,6 @@ comments: false
 Maestro is a Python library and command line tool for automating and monitoring software workflows that I authored at [LLNL](https://www.llnl.gov). The main concept centers around conducting "studies" using independent workflow steps that are chained together by user specified execution-order dependency. A study is defined in a YAML file that Maestro denotes as a "study specification". A specification can be user written or programmatically generated. Maestro parses the a study specification, generating standard data structures for setting up, executing, and monitoring a study.
 
 ### Why did you create Maestro?
-
-
 ## Core Design Principles
 
 When performing scientific software workflows, there are a few desirable properties that are essential to consider. Maestro focuses on the following:
@@ -34,6 +32,10 @@ When performing scientific software workflows, there are a few desirable propert
 - Documentation. Good documentation provides an opportunity for the user to step back and explain to themselves what they're doing.
 
 - Shareability. A workflow should be easy given to other users with minimal coupling to any one user's environment.
+
+### What were the motivations behind Maestro?
+
+
 
 ## Citations
 
