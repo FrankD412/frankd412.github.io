@@ -56,5 +56,5 @@
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }}); background-blend-mode: multiply;}</style>
     {% else %}
-    <style type="text/css">.feature {background-image:url({{ site.url }}/assets/img/post_banner.png);}</style>
+    <style type="text/css">.feature {background-image:url({{ site.url }}/assets/img/post_banner_test.png);}</style>
     {% endif %}
