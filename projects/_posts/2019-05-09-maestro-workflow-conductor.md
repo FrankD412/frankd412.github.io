@@ -33,7 +33,11 @@ I created Maestro because of my experiences running simulation workflows and the
 4. make workflows easier to parameterize and manage.
 
 ### What features does Maestro have?
-Maestro has a large set of features 
+Maestro has a large set of features that help to make running software workflows easier:
+- Workspace set up and management.
+    - Initial workspace set up and basic study metadata generation.
+    - Automatic study workspace timestamping.
+    - Automatic step workspace generation before execution.
 
 ### What does a study specification look like?
 A basic single step "hello world" example looks as follows:
