@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2019-07-07T19:06:05-07:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Nerd.</subtitle><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2019-09-01T09:15:52-07:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Nerd.</subtitle><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
 
 &lt;p&gt;As it turns out, there is actually quite a set of gems that GitHub doesn’t trust which makes it harder to do anything fancy if it requires an install they don’t like. In my debugging efforts I was spammed with emails as I kept pushing commits trying to fix the error. I swear that it’s come across my inbox enough that it’ll give me nightmares for a while. For those curious, the error in question:&lt;/p&gt;
 
@@ -120,37 +120,97 @@ The folder `_site` above is where my build places my compiled website. Your webs
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/troubleshooting/&quot;&gt;Jekyll Troubleshooting&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="web dev" /><category term="how-to" /><category term="technical" /><category term="jekyll" /><category term="blog" /><summary type="html">After struggling with trying to figure out static builds with various guides, I found out just how simple it was to release a staticly built jekyll site. Here's a how to on how to do it with your own personal github.io webpage.</summary></entry><entry><title type="html">Maestro Workflow Conductor (maestrowf)</title><link href="https://frankd412.github.io/projects/maestro-workflow-conductor/" rel="alternate" type="text/html" title="Maestro Workflow Conductor (maestrowf)" /><published>2019-05-11T00:00:00-07:00</published><updated>2019-05-11T00:00:00-07:00</updated><id>https://frankd412.github.io/projects/maestro-workflow-conductor</id><content type="html" xml:base="https://frankd412.github.io/projects/maestro-workflow-conductor/">&lt;!-- Place this tag where you want the button to render. --&gt;
-&lt;p&gt;&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/LLNL/maestrowf&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star LLNL/maestrowf on GitHub&quot;&gt;Star&lt;/a&gt;
+&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="web dev" /><category term="how-to" /><category term="technical" /><category term="jekyll" /><category term="blog" /><summary type="html">After struggling with trying to figure out static builds with various guides, I found out just how simple it was to release a staticly built jekyll site. Here's a how to on how to do it with your own personal github.io webpage.</summary></entry><entry><title type="html">Maestro Workflow Conductor (maestrowf)</title><link href="https://frankd412.github.io/projects/maestro-workflow-conductor/" rel="alternate" type="text/html" title="Maestro Workflow Conductor (maestrowf)" /><published>2019-05-11T00:00:00-07:00</published><updated>2019-05-11T00:00:00-07:00</updated><id>https://frankd412.github.io/projects/maestro-workflow-conductor</id><content type="html" xml:base="https://frankd412.github.io/projects/maestro-workflow-conductor/">&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/LLNL/maestrowf&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star LLNL/maestrowf on GitHub&quot;&gt;Star&lt;/a&gt;
 &lt;!-- Place this tag where you want the button to render. --&gt;
 &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/LLNL/maestrowf/subscription&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Watch LLNL/maestrowf on GitHub&quot;&gt;Watch&lt;/a&gt;
 &lt;!-- Place this tag where you want the button to render. --&gt;
-&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/LLNL/maestrowf/issues&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Issue LLNL/maestrowf on GitHub&quot;&gt;Issue&lt;/a&gt;&lt;/p&gt;
+&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/LLNL/maestrowf/issues&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Issue LLNL/maestrowf on GitHub&quot;&gt;Issue&lt;/a&gt;
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/LLNL/maestrowf/fork&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Fork LLNL/maestrowf on GitHub&quot;&gt;Fork&lt;/a&gt;
+&lt;/p&gt;
 
 &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;Maestro is a Python library and command line tool for automating and monitoring software workflows that I authored at &lt;a href=&quot;https://www.llnl.gov&quot;&gt;LLNL&lt;/a&gt;. The main concept centers around conducting “studies” using independent workflow steps that are chained together by user specified time-order dependency. A study is defined in a YAML file that Maestro denotes as a “study specification”. A specification can be user written or programmatically generated. Maestro parses the a study specification, generating standard data structures for setting up, executing, and monitoring a study.&lt;/p&gt;
+&lt;h3 id=&quot;what-is-maestro&quot;&gt;What is Maestro?&lt;/h3&gt;
+&lt;p&gt;Maestro is a Python library and command line tool for automating and monitoring software workflows that I authored at &lt;a href=&quot;https://software.llnl.gov/repo/#/LLNL/maestrowf&quot;&gt;LLNL&lt;/a&gt;. The main concept centers around conducting “studies” using independent workflow steps that are chained together by user specified execution-order dependency. A study is defined in a YAML file that Maestro denotes as a “study specification”. A specification can be user written or programmatically generated. Maestro parses the a study specification, generating standard data structures for setting up, executing, and monitoring a study.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-did-you-create-maestro&quot;&gt;Why did you create Maestro?&lt;/h3&gt;
+&lt;p&gt;I created Maestro because of my experiences running simulation workflows and the general trend of ignoring automation. In my experience, automation and infrastructure are often viewed as efforts that are lesser priority to accomplishing critical path milestones. In response, I wanted to design a lightweight tool that could be used to quickly stand up automated software workflows but that also accomplished a few other important properties:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;encourage users to think about workflows as standalone steps with intent and purpose.&lt;/li&gt;
+  &lt;li&gt;encourage users to better document their workflows.&lt;/li&gt;
+  &lt;li&gt;make user workflows easier to share and communicate.&lt;/li&gt;
+  &lt;li&gt;make workflows easier to parameterize and manage.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;what-features-does-maestro-have&quot;&gt;What features does Maestro have?&lt;/h3&gt;
+&lt;p&gt;Maestro has a large set of features that help to make running software workflows easier:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Workspace set up and management.
+    &lt;ul&gt;
+      &lt;li&gt;Initial workspace set up and basic study metadata generation.&lt;/li&gt;
+      &lt;li&gt;Automatic study workspace timestamping.&lt;/li&gt;
+      &lt;li&gt;Automatic step workspace generation before execution.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-does-a-study-specification-look-like&quot;&gt;What does a study specification look like?&lt;/h3&gt;
+&lt;p&gt;A basic single step “hello world” example looks as follows:&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;hello_world&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;A simple 'Hello World' study.&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;variables&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;OUTPUT_PATH&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./sample_output/hello_world&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;study&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;hello_world&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say hello to the world!&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can easily chain steps together by specifying dependencies. If you wanted to say “bye” after saying “hello”:&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;hello_bye&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;A simple 'Hello World' study.&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;variables&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;OUTPUT_PATH&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./sample_output/hello_world&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;OUT_FORMAT&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;$(GREETING)_$(NAME).txt&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;study&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;hello_world&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say hello to someone!&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bye_world&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say bye to someone!&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;echo &quot;Bye, World!&quot; &amp;gt; bye_world.txt&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;depends&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;core-design-principles&quot;&gt;Core Design Principles&lt;/h2&gt;
 
 &lt;p&gt;When performing scientific software workflows, there are a few desirable properties that are essential to consider. Maestro focuses on the following:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Repeatability. Consistently repeating a workflow is the first step to reproducing it.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Extendibility. Workflows should be modular, allowing workflows to be extensible, testable, and robust.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Documentation. Good documentation provides an opportunity for the user to step back and explain to themselves what they’re doing.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Shareability. A workflow should be easy given to other users with minimal coupling to any one user’s environment.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Repeatability&lt;/strong&gt;. Consistently repeating a workflow is the first step to reproducing it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extendibility&lt;/strong&gt;. Workflows should be modular, allowing workflows to be extensible, testable, and robust.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;. Good documentation provides an opportunity for the user to step back and explain to themselves what they’re doing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shareability&lt;/strong&gt;. A workflow should be easy given to other users with minimal coupling to any one user’s environment.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;citations&quot;&gt;Citations&lt;/h2&gt;
 
-&lt;ul class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ahn2018flux&quot;&gt;Ahn, D. H., Bass, N., Chu, A., Garlick, J., Grondona, M., Herbein, S., … others. (2018). Flux: Overcoming Scheduling Challenges for Exascale Workflows. In &lt;i&gt;2018 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)&lt;/i&gt; (pp. 10–19). IEEE.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;carpenter2018capturing&quot;&gt;Carpenter, T. S., López, C. A., Neale, C., Montour, C., Ingólfsson, H. I., Di Natale, F., … Gnanakaran, S. (2018). Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field. &lt;i&gt;Journal of Chemical Theory and Computation&lt;/i&gt;, &lt;i&gt;14&lt;/i&gt;(11), 6050–6062.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name></name></author><category term="python" /><category term="simulations" /><category term="hpc" /><category term="simulation workflow" /><category term="open source" /><summary type="html">A Python command line tool and library for specifying, automating, and monitoring HPC software workflows.</summary></entry></feed>
+&lt;ul class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;MuMMI&quot;&gt;Di Natale, F., Bhatia, H., Carpenter, T. S., Neale, C., Schumacher, S. K., Oppelstrup, T., … Ingólfsson, H. I. (2019). A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer. In &lt;i&gt;To appear in  Supercomputing ’19: The International Conference for High Performance Computing&lt;/i&gt;. https://doi.org/10.1145/1122445.1122456&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;ahn2018flux&quot;&gt;Ahn, D. H., Bass, N., Chu, A., Garlick, J., Grondona, M., Herbein, S., … others. (2018). Flux: Overcoming Scheduling Challenges for Exascale Workflows. In &lt;i&gt;2018 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)&lt;/i&gt; (pp. 10–19). IEEE.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;carpenter2018capturing&quot;&gt;Carpenter, T. S., López, C. A., Neale, C., Montour, C., Ingólfsson, H. I., Di Natale, F., … Gnanakaran, S. (2018). Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field. &lt;i&gt;Journal of Chemical Theory and Computation&lt;/i&gt;, &lt;i&gt;14&lt;/i&gt;(11), 6050–6062.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name></name></author><category term="python" /><category term="simulations" /><category term="hpc" /><category term="scientific computing" /><category term="software workflow" /><category term="open source" /><summary type="html">A Python command line tool and library for specifying, automating, and monitoring HPC software workflows. *Orchestra your workflows with ease.*</summary></entry></feed>
