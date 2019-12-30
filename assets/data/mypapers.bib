@@ -1,19 +1,60 @@
-@inproceedings{MuMMI,
-    author = {Di Natale, Francesco and Bhatia, Harsh and Carpenter, Timothy S. and Neale, Chris and Schumacher, Sara Kokkila and  Oppelstrup, Tomas and Stanton, Liam and Zhang, Xiaohua and Sundram, Shiv and Scogland, Thomas R. W. and Dharuman, Gautham and Surh, Michael P. and Yang, Yue and Misale, Claudia and Schneidenbach, Lars and Costa, Carlos and Kim, Changhoan and D’Amora, Bruce and Gnanakaran, Sandrasegaram and Nissley, Dwight V. and Streitz, Fred and Lightstone, Felice C. and Bremer, Peer-Timo and Glosli, James N. and Ing{\'o}lfsson, Helgi I.},
-    title = {A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer},
-    booktitle = {To appear in  Supercomputing ’19: The International Conference for High Performance Computing},
-    series = {SC '19},
-    year = {2019},
-    doi = {10.1145/1122445.1122456},
+@misc{osti_1372046,
+title = {Maestro Workflow Conductor},
+author = {Di Natale, Francesco},
+abstract = {MaestroWF is a Python tool and software package for loading YAML study specifications that represents a simulation campaign. The package is capable of parameterizing a study, pulling dependencies automatically, formatting output directories, and managing the flow and execution of the campaign. MaestroWF also provides a set of abstracted objects that can also be used to develop user specific scripts for launching simulation campaigns.},
+year = {2017},
+month = {6},
+url = {https://github.com/LLNL/maestrowf}
 }
 
 @article{carpenter2018capturing,
-  title={Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field},
+  title={Capturing phase behavior of ternary lipid mixtures with a refined martini coarse-grained force field},
   author={Carpenter, Timothy S and L{\'o}pez, Cesar A and Neale, Chris and Montour, Cameron and Ing{\'o}lfsson, Helgi I and Di Natale, Francesco and Lightstone, Felice C and Gnanakaran, Sandrasegaram},
   journal={Journal of chemical theory and computation},
   volume={14},
   number={11},
   pages={6050--6062},
   year={2018},
-  publisher={ACS Publications}
+  publisher={American Chemical Society}
+}
+
+@misc{osti_1542560,
+title = {Simulation INsight and Analysis},
+author = {Pauli, Esteban T and Aschwanden, Pascal D and Laney, Daiel E and Dahlgren, Tamara and Semler, Jessica A and Di Natale, Francesco and Greco, Nathan S and Eklund, Joseph L and Haluska, Rebecca M and USDOE National Nuclear Security Administration},
+abstractNote = {Sina is a tool set for modern scientific data management that provides flexible, light-weight support of non-bulk data capture for retention in and queries against SQL and noSQL data stores. HPC simulations traditionally maintain their data in files. Extracting data of interest for subsequent analysis then requires the time-consuming process of traversing directories and scraping data from files in a variety of formats. Sina facilitates capturing relevant data during execution or post-processing of simulation runs for retention in and queries from a modern data store. The tools are sufficiently general to allow for the inclusion of new fields as scientists learn more about their data. Libraries, currently in C++ and Python, and a command line interface (CLI) are provided. Sina's flexibility starts with a general schema, in JSON, for the collection of non-bulk simulation data. JSON provides a flexible, human-readable representation of the data that of interest. Sina currently has a C++ library for simulations to write data to and read from a schema-compliant file for subsequent ingestion into one of the supported data stores. However, applications are free to write their data directly into a schema-compliant file. Python packages provide data ingestion, management, query, and export capabilities. A command line interface (CLI) provides simplified access to these features. A common application programming interface (API) is used to maintain and query data in any of the supported data stores, which are currently limited to SQL and Apache Cassandra (a column store). Tutorials, demonstrations, and examples illustrate aspects of the process using scripts and Jupyter notebooks.},
+url = {https://www.osti.gov//servlets/purl/1542560},
+doi = {10.11578/dc.20190715.10},
+year = {2018},
+month = {11},
+}
+
+@misc{peterson2019merlin,
+    title={Merlin: Enabling Machine Learning-Ready HPC Ensembles},
+    author={J. Luc Peterson and Rushil Anirudh and Kevin Athey and Benjamin Bay and Peer-Timo Bremer and Vic Castillo and Francesco Di Natale and David Fox and Jim A. Gaffney and David Hysom and Sam Ade Jacobs and Bhavya Kailkhura and Joe Koning and Bogdan Kustowski and Steven Langer and Peter Robinson and Jessica Semler and Brian Spears and Jayaraman Thiagarajan and Brian Van Essen and Jae-Seung Yeom},
+    year={2019},
+    month=dec,
+    eprint={1912.02892},
+    archivePrefix={arXiv},
+    primaryClass={cs.DC},
+    URL={https://arxiv.org/pdf/1912.02892.pdf}
+}
+
+@inproceedings{DiNatale:2019:MPI:3295500.3356197,
+ author = {Di Natale, Francesco and Bhatia, Harsh and Carpenter, Timothy S. and Neale, Chris and Schumacher, Sara Kokkila and Oppelstrup, Tomas and Stanton, Liam and Zhang, Xiaohua and Sundram, Shiv and Scogland, Thomas R. W. and Dharuman, Gautham and Surh, Michael P. and Yang, Yue and Misale, Claudia and Schneidenbach, Lars and Costa, Carlos and Kim, Changhoan and D'Amora, Bruce and Gnanakaran, Sandrasegaram and Nissley, Dwight V. and Streitz, Fred and Lightstone, Felice C. and Bremer, Peer-Timo and Glosli, James N. and Ing\'{o}lfsson, Helgi I.},
+ title = {A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer},
+ booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+ series = {SC '19},
+ year = {2019},
+ month = nov,
+ isbn = {978-1-4503-6229-0},
+ location = {Denver, Colorado},
+ pages = {57:1--57:16},
+ articleno = {57},
+ numpages = {16},
+ url = {http://doi.acm.org/10.1145/3295500.3356197},
+ doi = {10.1145/3295500.3356197},
+ acmid = {3356197},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {adaptive simulations, cancer research, heterogenous architecture, machine learning, massively parallel, multiscale simulations},
 }
