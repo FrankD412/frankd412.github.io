@@ -92,4 +92,4 @@ When performing scientific software workflows, there are a few desirable propert
 
 ## Citations
 
-{% bibliography --file maestro %}
+{% bibliography --file bibliography/maestro %}
