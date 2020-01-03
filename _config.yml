@@ -85,12 +85,19 @@ relative-links:
 
 scholar:
   locale:   en
-  sytle:    apa
-  sort_by:  year
+  sytle:    assets/bibliography/ieee-with-url.csl
+  sort_by:  year,month,day
   order:    descending
   query:    "@*"
   source:   assets/data/
   bibliography_list_tag: ul
+  bibliography_template: bibliography
+
+  replace_strings: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
