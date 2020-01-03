@@ -17,7 +17,7 @@
 
     {% if entry.link %}
         <a class="label" target="_blank" href="{{entry.link}}">
-            {% if entry.type == "conference" %}
+            {% if entry.type == "conference" or entry.type == "workshop" %}
                 <input class="bibliography label download" type="button" value="page">
             {% else %}
                 <input class="bibliography label download" type="button" value="download">
