@@ -9,6 +9,11 @@
 
 @inproceedings{DiNatale2019MPI32955003356197,
  author = {Di Natale, Francesco and Bhatia, Harsh and Carpenter, Timothy S. and Neale, Chris and Schumacher, Sara Kokkila and Oppelstrup, Tomas and Stanton, Liam and Zhang, Xiaohua and Sundram, Shiv and Scogland, Thomas R. W. and Dharuman, Gautham and Surh, Michael P. and Yang, Yue and Misale, Claudia and Schneidenbach, Lars and Costa, Carlos and Kim, Changhoan and D'Amora, Bruce and Gnanakaran, Sandrasegaram and Nissley, Dwight V. and Streitz, Fred and Lightstone, Felice C. and Bremer, Peer-Timo and Glosli, James N. and Ing\'{o}lfsson, Helgi I.},
+ abstract = {Computational models can define the functional dynamics of complex systems in exceptional detail. However, many modeling studies face seemingly incommensurate requirements: to gain meaningful insights into some phenomena requires models with high resolution (microscopic) detail that must nevertheless evolve over large (macroscopic) length- and time-scales. Multiscale modeling has become increasingly important to bridge this gap. Executing complex multiscale models on current petascale computers with high levels of parallelism and heterogeneous architectures is challenging. Many distinct types of resources need to be simultaneously managed, such as GPUs and CPUs, memory size and latencies, communication bottlenecks, and filesystem bandwidth. In addition, robustness to failure of compute nodes, network, and filesystems is critical.
+
+We introduce a first-of-its-kind, massively parallel Multiscale Machine-Learned Modeling Infrastructure (MuMMI), which couples a macro scale model spanning micrometer length- and millisecond time-scales with a micro scale model employing high-fidelity molecular dynamics (MD) simulations. MuMMI is a cohesive and transferable infrastructure designed for scalability and efficient execution on heterogeneous resources. A central workflow manager simultaneously allocates GPUs and CPUs while robustly handling failures in compute nodes, communication networks, and filesystems. A hierarchical scheduler controls GPU-accelerated MD simulations and in situ analysis.
+
+We present the various MuMMI components, including the macro model, GPU-accelerated MD, in situ analysis of MD data, machine learning selection module, a highly scalable hierarchical scheduler, and detail the central workflow manager that ties these modules together. In addition, we present performance data from our runs on Sierra, in which we validated MuMMI by investigating an experimentally intractable biological system: the dynamic interaction between RAS proteins and a plasma membrane. We used up to 4000 nodes of the Sierra supercomputer, concurrently utilizing over 16,000 GPUs and 176,000 CPU cores, and running up to 36,000 different tasks. This multiscale simulation includes about 120,000 MD simulations aggregating over 200 milliseconds, which is orders of magnitude greater than comparable studies.},
  title = {A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer},
  booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
  series = {SC '19},
@@ -29,15 +34,18 @@
  notes = {Won Best Paper}
 }
 
-@article{carpenter2018capturing,
-  title={Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field},
-  author={Carpenter, Timothy S and L{\'o}pez, Cesar A and Neale, Chris and Montour, Cameron and Ing{\'o}lfsson, Helgi I and Di Natale, Francesco and Lightstone, Felice C and Gnanakaran, Sandrasegaram},
-  journal={Journal of chemical theory and computation},
-  volume={14},
-  number={11},
-  pages={6050--6062},
-  year={2018},
-  publisher={ACS Publications}
+@article{doi101021acsjctc8b00496,
+    author = {Carpenter, Timothy S. and L\'{o}pez, Cesar A. and Neale, Chris and Montour, Cameron and Ing\'{o}lfsson, Helgi I. and Di Natale, Francesco and Lightstone, Felice C. and Gnanakaran, S.},
+    title = {Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field},
+    journal = {Journal of Chemical Theory and Computation},
+    volume = {14},
+    number = {11},
+    pages = {6050-6062},
+    year = {2018},
+    doi = {10.1021/acs.jctc.8b00496},
+    note ={PMID: 30253091},
+    URL = {https://doi.org/10.1021/acs.jctc.8b00496},
+    eprint = {https://doi.org/10.1021/acs.jctc.8b00496}
 }
 
 @misc{peterson2019merlin,
