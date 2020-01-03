@@ -4,7 +4,7 @@ bio:                'Software Engineer. Computer Scientist. Nerd.'
 description:        "Software Engineer. Computer Scientist. Nerd."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/profilepic.jpg'
+logo:               'assets/img/77406768_10156367004537811_5909955547112669184_o.jpg'
 background:         'assets/img/background_test.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
