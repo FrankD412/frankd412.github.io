@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2019-09-01T09:15:52-07:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Nerd.</subtitle><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2020-01-03T13:48:23-05:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Idealist.</subtitle><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-04:00</published><updated>2019-07-01T00:00:00-04:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
 
 &lt;p&gt;As it turns out, there is actually quite a set of gems that GitHub doesn’t trust which makes it harder to do anything fancy if it requires an install they don’t like. In my debugging efforts I was spammed with emails as I kept pushing commits trying to fix the error. I swear that it’s come across my inbox enough that it’ll give me nightmares for a while. For those curious, the error in question:&lt;/p&gt;
 
@@ -120,7 +120,7 @@ The folder `_site` above is where my build places my compiled website. Your webs
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/troubleshooting/&quot;&gt;Jekyll Troubleshooting&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="web dev" /><category term="how-to" /><category term="technical" /><category term="jekyll" /><category term="blog" /><summary type="html">After struggling with trying to figure out static builds with various guides, I found out just how simple it was to release a staticly built jekyll site. Here's a how to on how to do it with your own personal github.io webpage.</summary></entry><entry><title type="html">Maestro Workflow Conductor (maestrowf)</title><link href="https://frankd412.github.io/projects/maestro-workflow-conductor/" rel="alternate" type="text/html" title="Maestro Workflow Conductor (maestrowf)" /><published>2019-05-11T00:00:00-07:00</published><updated>2019-05-11T00:00:00-07:00</updated><id>https://frankd412.github.io/projects/maestro-workflow-conductor</id><content type="html" xml:base="https://frankd412.github.io/projects/maestro-workflow-conductor/">&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="web dev" /><category term="how-to" /><category term="technical" /><category term="jekyll" /><category term="blog" /><summary type="html">After struggling with trying to figure out static builds with various guides, I found out just how simple it was to release a staticly built jekyll site. Here's a how to on how to do it with your own personal github.io webpage.</summary></entry><entry><title type="html">Maestro Workflow Conductor (maestrowf)</title><link href="https://frankd412.github.io/projects/maestro-workflow-conductor/" rel="alternate" type="text/html" title="Maestro Workflow Conductor (maestrowf)" /><published>2019-05-11T00:00:00-04:00</published><updated>2019-05-11T00:00:00-04:00</updated><id>https://frankd412.github.io/projects/maestro-workflow-conductor</id><content type="html" xml:base="https://frankd412.github.io/projects/maestro-workflow-conductor/">&lt;p style=&quot;text-align: center;&quot;&gt;
 &lt;!-- Place this tag where you want the button to render. --&gt;
 &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/LLNL/maestrowf&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star LLNL/maestrowf on GitHub&quot;&gt;Star&lt;/a&gt;
 &lt;!-- Place this tag where you want the button to render. --&gt;
@@ -172,7 +172,7 @@ The folder `_site` above is where my build places my compiled website. Your webs
       &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say hello to the world!&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
+            &lt;span class=&quot;no&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;You can easily chain steps together by specifying dependencies. If you wanted to say “bye” after saying “hello”:&lt;/p&gt;
@@ -189,12 +189,12 @@ The folder `_site` above is where my build places my compiled website. Your webs
       &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say hello to someone!&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
+            &lt;span class=&quot;no&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
     &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bye_world&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say bye to someone!&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;echo &quot;Bye, World!&quot; &amp;gt; bye_world.txt&lt;/span&gt;
+            &lt;span class=&quot;no&quot;&gt;echo &quot;Bye, World!&quot; &amp;gt; bye_world.txt&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;depends&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -211,6 +211,163 @@ The folder `_site` above is where my build places my compiled website. Your webs
 
 &lt;h2 id=&quot;citations&quot;&gt;Citations&lt;/h2&gt;
 
-&lt;ul class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;MuMMI&quot;&gt;Di Natale, F., Bhatia, H., Carpenter, T. S., Neale, C., Schumacher, S. K., Oppelstrup, T., … Ingólfsson, H. I. (2019). A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer. In &lt;i&gt;To appear in  Supercomputing ’19: The International Conference for High Performance Computing&lt;/i&gt;. https://doi.org/10.1145/1122445.1122456&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;ahn2018flux&quot;&gt;Ahn, D. H., Bass, N., Chu, A., Garlick, J., Grondona, M., Herbein, S., … others. (2018). Flux: Overcoming Scheduling Challenges for Exascale Workflows. In &lt;i&gt;2018 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)&lt;/i&gt; (pp. 10–19). IEEE.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;carpenter2018capturing&quot;&gt;Carpenter, T. S., López, C. A., Neale, C., Montour, C., Ingólfsson, H. I., Di Natale, F., … Gnanakaran, S. (2018). Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field. &lt;i&gt;Journal of Chemical Theory and Computation&lt;/i&gt;, &lt;i&gt;14&lt;/i&gt;(11), 6050–6062.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name></name></author><category term="python" /><category term="simulations" /><category term="hpc" /><category term="scientific computing" /><category term="software workflow" /><category term="open source" /><summary type="html">A Python command line tool and library for specifying, automating, and monitoring HPC software workflows. *Orchestra your workflows with ease.*</summary></entry></feed>
+&lt;ul class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;DiNatale2019MPI32955003356197&quot;&gt;Di Natale, F., Bhatia, H., Carpenter, T. S., Neale, C., Schumacher, S. K., Oppelstrup, T., … Ingólfsson, H. I. (2019). A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer. In &lt;i&gt;Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis&lt;/i&gt; (pp. 57:1–57:16). New York, NY, USA: ACM. https://doi.org/10.1145/3295500.3356197&lt;/span&gt;
+
+&lt;div id=&quot;DiNatale2019MPI32955003356197-materials&quot;&gt;
+    
+        &lt;a class=&quot;label&quot;&gt;
+            &lt;input class=&quot;bibliography label notes&quot; type=&quot;button&quot; value=&quot;Won Best Paper&quot; /&gt;
+        &lt;/a&gt;
+    
+
+    
+        &lt;a class=&quot;label collapsible&quot;&gt;
+            &lt;input id=&quot;DiNatale2019MPI32955003356197&quot; class=&quot;bibliography label abstract&quot; type=&quot;button&quot; value=&quot;abstract&quot; /&gt;
+        &lt;/a&gt;
+    
+
+    
+        &lt;a class=&quot;label&quot; target=&quot;_blank&quot; href=&quot;https://dl.acm.org/doi/pdf/10.1145/3295500.3356197?download=true&quot;&gt;
+            
+                &lt;input class=&quot;bibliography label download&quot; type=&quot;button&quot; value=&quot;download&quot; /&gt;
+            
+        &lt;/a&gt;
+    
+
+    
+        &lt;a class=&quot;label&quot; target=&quot;_blank&quot; href=&quot;http://dx.doi.org/10.1145/3295500.3356197&quot;&gt;
+            &lt;input class=&quot;bibliography label doi&quot; type=&quot;button&quot; value=&quot;doi&quot; /&gt;
+        &lt;/a&gt;
+    
+
+    &lt;a class=&quot;label collapsible&quot;&gt;
+        &lt;input id=&quot;DiNatale2019MPI32955003356197&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+    &lt;/a&gt;
+
+    
+        &lt;div id=&quot;DiNatale2019MPI32955003356197-abstract&quot; class=&quot;collapsible&quot;&gt;
+            &lt;pre style=&quot;white-space:normal;&quot;&gt;Computational models can define the functional dynamics of complex systems in exceptional detail. However, many modeling studies face seemingly incommensurate requirements: to gain meaningful insights into some phenomena requires models with high resolution (microscopic) detail that must nevertheless evolve over large (macroscopic) length- and time-scales. Multiscale modeling has become increasingly important to bridge this gap. Executing complex multiscale models on current petascale computers with high levels of parallelism and heterogeneous architectures is challenging. Many distinct types of resources need to be simultaneously managed, such as GPUs and CPUs, memory size and latencies, communication bottlenecks, and filesystem bandwidth. In addition, robustness to failure of compute nodes, network, and filesystems is critical.
+
+We introduce a first-of-its-kind, massively parallel Multiscale Machine-Learned Modeling Infrastructure (MuMMI), which couples a macro scale model spanning micrometer length- and millisecond time-scales with a micro scale model employing high-fidelity molecular dynamics (MD) simulations. MuMMI is a cohesive and transferable infrastructure designed for scalability and efficient execution on heterogeneous resources. A central workflow manager simultaneously allocates GPUs and CPUs while robustly handling failures in compute nodes, communication networks, and filesystems. A hierarchical scheduler controls GPU-accelerated MD simulations and in situ analysis.
+
+We present the various MuMMI components, including the macro model, GPU-accelerated MD, in situ analysis of MD data, machine learning selection module, a highly scalable hierarchical scheduler, and detail the central workflow manager that ties these modules together. In addition, we present performance data from our runs on Sierra, in which we validated MuMMI by investigating an experimentally intractable biological system: the dynamic interaction between RAS proteins and a plasma membrane. We used up to 4000 nodes of the Sierra supercomputer, concurrently utilizing over 16,000 GPUs and 176,000 CPU cores, and running up to 36,000 different tasks. This multiscale simulation includes about 120,000 MD simulations aggregating over 200 milliseconds, which is orders of magnitude greater than comparable studies.&lt;/pre&gt;
+        &lt;/div&gt;
+    
+    &lt;div id=&quot;DiNatale2019MPI32955003356197-bibtex&quot; class=&quot;collapsible&quot;&gt;
+        &lt;pre&gt;@inproceedings{DiNatale2019MPI32955003356197,
+  author = {Di Natale, Francesco and Bhatia, Harsh and Carpenter, Timothy S. and Neale, Chris and Schumacher, Sara Kokkila and Oppelstrup, Tomas and Stanton, Liam and Zhang, Xiaohua and Sundram, Shiv and Scogland, Thomas R. W. and Dharuman, Gautham and Surh, Michael P. and Yang, Yue and Misale, Claudia and Schneidenbach, Lars and Costa, Carlos and Kim, Changhoan and D'Amora, Bruce and Gnanakaran, Sandrasegaram and Nissley, Dwight V. and Streitz, Fred and Lightstone, Felice C. and Bremer, Peer-Timo and Glosli, James N. and Ing\'{o}lfsson, Helgi I.},
+  title = {A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer},
+  booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  series = {SC '19},
+  year = {2019},
+  month = nov,
+  isbn = {978-1-4503-6229-0},
+  location = {Denver, Colorado},
+  pages = {57:1--57:16},
+  articleno = {57},
+  numpages = {16},
+  url = {http://doi.acm.org/10.1145/3295500.3356197},
+  link = {https://dl.acm.org/doi/pdf/10.1145/3295500.3356197?download=true},
+  doi = {10.1145/3295500.3356197},
+  acmid = {3356197},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  keywords = {adaptive simulations, cancer research, heterogenous architecture, machine learning, massively parallel, multiscale simulations},
+  notes = {Won Best Paper}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;peterson2019merlin&quot;&gt;Peterson, J. L., Anirudh, R., Athey, K., Bay, B., Bremer, P.-T., Castillo, V., … Yeom, J.-S. (2019). Merlin: Enabling Machine Learning-Ready HPC Ensembles.&lt;/span&gt;
+
+&lt;div id=&quot;peterson2019merlin-materials&quot;&gt;
+    
+
+    
+
+    
+
+    
+
+    &lt;a class=&quot;label collapsible&quot;&gt;
+        &lt;input id=&quot;peterson2019merlin&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+    &lt;/a&gt;
+
+    
+    &lt;div id=&quot;peterson2019merlin-bibtex&quot; class=&quot;collapsible&quot;&gt;
+        &lt;pre&gt;@misc{peterson2019merlin,
+  title = {Merlin: Enabling Machine Learning-Ready HPC Ensembles},
+  author = {Peterson, J. Luc and Anirudh, Rushil and Athey, Kevin and Bay, Benjamin and Bremer, Peer-Timo and Castillo, Vic and Natale, Francesco Di and Fox, David and Gaffney, Jim A. and Hysom, David and Jacobs, Sam Ade and Kailkhura, Bhavya and Koning, Joe and Kustowski, Bogdan and Langer, Steven and Robinson, Peter and Semler, Jessica and Spears, Brian and Thiagarajan, Jayaraman and Essen, Brian Van and Yeom, Jae-Seung},
+  year = {2019},
+  eprint = {1912.02892},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.DC}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;ahn2018flux&quot;&gt;Ahn, D. H., Bass, N., Chu, A., Garlick, J., Grondona, M., Herbein, S., … others. (2018). Flux: Overcoming Scheduling Challenges for Exascale Workflows. In &lt;i&gt;2018 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)&lt;/i&gt; (pp. 10–19). IEEE.&lt;/span&gt;
+
+&lt;div id=&quot;ahn2018flux-materials&quot;&gt;
+    
+
+    
+
+    
+
+    
+
+    &lt;a class=&quot;label collapsible&quot;&gt;
+        &lt;input id=&quot;ahn2018flux&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+    &lt;/a&gt;
+
+    
+    &lt;div id=&quot;ahn2018flux-bibtex&quot; class=&quot;collapsible&quot;&gt;
+        &lt;pre&gt;@inproceedings{ahn2018flux,
+  title = {Flux: Overcoming Scheduling Challenges for Exascale Workflows},
+  author = {Ahn, Dong H and Bass, Ned and Chu, Albert and Garlick, Jim and Grondona, Mark and Herbein, Stephen and Koning, Joseph and Patki, Tapasya and Scogland, Thomas RW and Springmeyer, Becky and others},
+  booktitle = {2018 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)},
+  pages = {10--19},
+  year = {2018},
+  organization = {IEEE}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;doi101021acsjctc8b00496&quot;&gt;Carpenter, T. S., López, C. A., Neale, C., Montour, C., Ingólfsson, H. I., Di Natale, F., … Gnanakaran, S. (2018). Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field. &lt;i&gt;Journal of Chemical Theory and Computation&lt;/i&gt;, &lt;i&gt;14&lt;/i&gt;(11), 6050–6062. https://doi.org/10.1021/acs.jctc.8b00496&lt;/span&gt;
+
+&lt;div id=&quot;doi101021acsjctc8b00496-materials&quot;&gt;
+    
+
+    
+
+    
+
+    
+        &lt;a class=&quot;label&quot; target=&quot;_blank&quot; href=&quot;http://dx.doi.org/10.1021/acs.jctc.8b00496&quot;&gt;
+            &lt;input class=&quot;bibliography label doi&quot; type=&quot;button&quot; value=&quot;doi&quot; /&gt;
+        &lt;/a&gt;
+    
+
+    &lt;a class=&quot;label collapsible&quot;&gt;
+        &lt;input id=&quot;doi101021acsjctc8b00496&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+    &lt;/a&gt;
+
+    
+    &lt;div id=&quot;doi101021acsjctc8b00496-bibtex&quot; class=&quot;collapsible&quot;&gt;
+        &lt;pre&gt;@article{doi101021acsjctc8b00496,
+  author = {Carpenter, Timothy S. and L\'{o}pez, Cesar A. and Neale, Chris and Montour, Cameron and Ing\'{o}lfsson, Helgi I. and Di Natale, Francesco and Lightstone, Felice C. and Gnanakaran, S.},
+  title = {Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field},
+  journal = {Journal of Chemical Theory and Computation},
+  volume = {14},
+  number = {11},
+  pages = {6050-6062},
+  year = {2018},
+  doi = {10.1021/acs.jctc.8b00496},
+  note = {PMID: 30253091},
+  url = {https://doi.org/10.1021/acs.jctc.8b00496},
+  eprint = {https://doi.org/10.1021/acs.jctc.8b00496}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name></name></author><category term="python" /><category term="simulations" /><category term="hpc" /><category term="scientific computing" /><category term="software workflow" /><category term="open source" /><summary type="html">A Python command line tool and library for specifying, automating, and monitoring HPC software workflows. *Orchestra your workflows with ease.*</summary></entry></feed>

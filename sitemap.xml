@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://frankd412.github.io/projects/maestro-workflow-conductor/</loc>
-<lastmod>2019-05-11T00:00:00-07:00</lastmod>
+<lastmod>2019-05-11T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>https://frankd412.github.io/posts/static-sites/</loc>
-<lastmod>2019-07-01T00:00:00-07:00</lastmod>
+<lastmod>2019-07-01T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>https://frankd412.github.io/404</loc>
@@ -31,6 +31,6 @@
 </url>
 <url>
 <loc>https://frankd412.github.io/assets/data/DiNataleF_Resume.pdf</loc>
-<lastmod>2019-05-27T20:11:24-07:00</lastmod>
+<lastmod>2020-01-03T13:47:43-05:00</lastmod>
 </url>
 </urlset>
