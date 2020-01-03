@@ -53,8 +53,11 @@ My technical interests include (but are not limited to) Software Engineering, So
 ---
 
 ## Awards and Recognition
-
-Stub
+* Best Paper at Supercomputing’19 for [A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer](https://sc19.supercomputing.org/presentation/?sess=sess165&id=pap384#038;id=pap384){:target="_blank"} [Article](https://sc19.supercomputing.org/2019/11/25/congratulations-to-the-sc-and-society-awardees-for-sc19-in-denver/){:target="_blank"}
+* Multiple ASQ Division Awards at [LLNL](https://www.llnl.gov){:target="_blank"}
+* Two Intel Team Awards
+* Most Outstanding Graduate Award by USF’s CSE Department
+* Member of Tau Beta Pi engineering honor society (FL Gamma Chapter)
 
 ---
 
