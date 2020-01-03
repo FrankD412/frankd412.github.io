@@ -246,3 +246,64 @@ div.breadcrumb-feature {
 .copyright {
 	color: white;
 }
+
+.bibliography {
+	li {
+		margin: 0 0 0.4rem 0;
+	}
+
+	a.label{
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+	&.label {
+		border: none;
+		color: white;
+		padding: 4px 8px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 10px;
+		font-weight: bold;
+		margin: 2px 1px;
+		border-radius: 5px;
+
+		&:active, &:focus {
+  			outline: 0;
+			border: none;
+  			-moz-outline-style: none;
+		}
+		
+		&.doi {
+			background-color: rgb(30, 33, 126);
+		}
+
+		&.download {
+			background-color: rgb(16, 71, 173);
+		}
+
+		&.bibtex {
+			background-color: rgb(4, 47, 126);
+		}
+
+		&.abstract {
+			background-color: rgb(63, 110, 197);
+		}
+
+		&.notes {
+			cursor: default;
+			background-color: rgb(108, 147, 219);
+		}
+	}
+}
+
+a.collapsible {
+	cursor: default;
+}
+
+div.collapsible {
+	padding: .2rem 0 0 0;
+	display: none;
+}

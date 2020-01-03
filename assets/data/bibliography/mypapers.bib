@@ -1,0 +1,70 @@
+@misc{osti_1372046,
+title = {Maestro Workflow Conductor},
+author = {Di Natale, Francesco},
+abstract = {MaestroWF is a Python tool and software package for loading YAML study specifications that represents a simulation campaign. The package is capable of parameterizing a study, pulling dependencies automatically, formatting output directories, and managing the flow and execution of the campaign. MaestroWF also provides a set of abstracted objects that can also be used to develop user specific scripts for launching simulation campaigns.},
+year = {2017},
+month = {6},
+url = {https://github.com/LLNL/maestrowf}
+}
+
+@article{doi101021acsjctc8b00496,
+    author = {Carpenter, Timothy S. and L\'{o}pez, Cesar A. and Neale, Chris and Montour, Cameron and Ing\'{o}lfsson, Helgi I. and Di Natale, Francesco and Lightstone, Felice C. and Gnanakaran, S.},
+    title = {Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field},
+    journal = {Journal of Chemical Theory and Computation},
+    volume = {14},
+    number = {11},
+    pages = {6050-6062},
+    year = {2018},
+    doi = {10.1021/acs.jctc.8b00496},
+    note ={PMID: 30253091},
+    URL = {https://doi.org/10.1021/acs.jctc.8b00496},
+    eprint = {https://doi.org/10.1021/acs.jctc.8b00496}
+}
+
+@misc{osti_1542560,
+title = {Simulation INsight and Analysis},
+author = {Pauli, Esteban T and Aschwanden, Pascal D and Laney, Daiel E and Dahlgren, Tamara and Semler, Jessica A and Di Natale, Francesco and Greco, Nathan S and Eklund, Joseph L and Haluska, Rebecca M and USDOE National Nuclear Security Administration},
+abstractNote = {Sina is a tool set for modern scientific data management that provides flexible, light-weight support of non-bulk data capture for retention in and queries against SQL and noSQL data stores. HPC simulations traditionally maintain their data in files. Extracting data of interest for subsequent analysis then requires the time-consuming process of traversing directories and scraping data from files in a variety of formats. Sina facilitates capturing relevant data during execution or post-processing of simulation runs for retention in and queries from a modern data store. The tools are sufficiently general to allow for the inclusion of new fields as scientists learn more about their data. Libraries, currently in C++ and Python, and a command line interface (CLI) are provided. Sina's flexibility starts with a general schema, in JSON, for the collection of non-bulk simulation data. JSON provides a flexible, human-readable representation of the data that of interest. Sina currently has a C++ library for simulations to write data to and read from a schema-compliant file for subsequent ingestion into one of the supported data stores. However, applications are free to write their data directly into a schema-compliant file. Python packages provide data ingestion, management, query, and export capabilities. A command line interface (CLI) provides simplified access to these features. A common application programming interface (API) is used to maintain and query data in any of the supported data stores, which are currently limited to SQL and Apache Cassandra (a column store). Tutorials, demonstrations, and examples illustrate aspects of the process using scripts and Jupyter notebooks.},
+url = {https://www.osti.gov//servlets/purl/1542560},
+doi = {10.11578/dc.20190715.10},
+year = {2018},
+month = {11},
+}
+
+@misc{peterson2019merlin,
+    title={Merlin: Enabling Machine Learning-Ready HPC Ensembles},
+    author={J. Luc Peterson and Rushil Anirudh and Kevin Athey and Benjamin Bay and Peer-Timo Bremer and Vic Castillo and Francesco Di Natale and David Fox and Jim A. Gaffney and David Hysom and Sam Ade Jacobs and Bhavya Kailkhura and Joe Koning and Bogdan Kustowski and Steven Langer and Peter Robinson and Jessica Semler and Brian Spears and Jayaraman Thiagarajan and Brian Van Essen and Jae-Seung Yeom},
+    year={2019},
+    month=dec,
+    eprint={1912.02892},
+    archivePrefix={arXiv},
+    primaryClass={cs.DC},
+    link={https://arxiv.org/pdf/1912.02892.pdf}
+}
+
+@inproceedings{DiNatale2019MPI32955003356197,
+ author = {Di Natale, Francesco and Bhatia, Harsh and Carpenter, Timothy S. and Neale, Chris and Schumacher, Sara Kokkila and Oppelstrup, Tomas and Stanton, Liam and Zhang, Xiaohua and Sundram, Shiv and Scogland, Thomas R. W. and Dharuman, Gautham and Surh, Michael P. and Yang, Yue and Misale, Claudia and Schneidenbach, Lars and Costa, Carlos and Kim, Changhoan and D'Amora, Bruce and Gnanakaran, Sandrasegaram and Nissley, Dwight V. and Streitz, Fred and Lightstone, Felice C. and Bremer, Peer-Timo and Glosli, James N. and Ing\'{o}lfsson, Helgi I.},
+ abstract = {Computational models can define the functional dynamics of complex systems in exceptional detail. However, many modeling studies face seemingly incommensurate requirements: to gain meaningful insights into some phenomena requires models with high resolution (microscopic) detail that must nevertheless evolve over large (macroscopic) length- and time-scales. Multiscale modeling has become increasingly important to bridge this gap. Executing complex multiscale models on current petascale computers with high levels of parallelism and heterogeneous architectures is challenging. Many distinct types of resources need to be simultaneously managed, such as GPUs and CPUs, memory size and latencies, communication bottlenecks, and filesystem bandwidth. In addition, robustness to failure of compute nodes, network, and filesystems is critical.
+
+We introduce a first-of-its-kind, massively parallel Multiscale Machine-Learned Modeling Infrastructure (MuMMI), which couples a macro scale model spanning micrometer length- and millisecond time-scales with a micro scale model employing high-fidelity molecular dynamics (MD) simulations. MuMMI is a cohesive and transferable infrastructure designed for scalability and efficient execution on heterogeneous resources. A central workflow manager simultaneously allocates GPUs and CPUs while robustly handling failures in compute nodes, communication networks, and filesystems. A hierarchical scheduler controls GPU-accelerated MD simulations and in situ analysis.
+
+We present the various MuMMI components, including the macro model, GPU-accelerated MD, in situ analysis of MD data, machine learning selection module, a highly scalable hierarchical scheduler, and detail the central workflow manager that ties these modules together. In addition, we present performance data from our runs on Sierra, in which we validated MuMMI by investigating an experimentally intractable biological system: the dynamic interaction between RAS proteins and a plasma membrane. We used up to 4000 nodes of the Sierra supercomputer, concurrently utilizing over 16,000 GPUs and 176,000 CPU cores, and running up to 36,000 different tasks. This multiscale simulation includes about 120,000 MD simulations aggregating over 200 milliseconds, which is orders of magnitude greater than comparable studies.},
+ title = {A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer},
+ booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+ series = {SC '19},
+ year = {2019},
+ month = nov,
+ isbn = {978-1-4503-6229-0},
+ location = {Denver, Colorado},
+ pages = {57:1--57:16},
+ articleno = {57},
+ numpages = {16},
+ url = {http://doi.acm.org/10.1145/3295500.3356197},
+ link = {https://dl.acm.org/doi/pdf/10.1145/3295500.3356197?download=true},
+ doi = {10.1145/3295500.3356197},
+ acmid = {3356197},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {adaptive simulations, cancer research, heterogenous architecture, machine learning, massively parallel, multiscale simulations},
+ notes = {Won Best Paper}
+}

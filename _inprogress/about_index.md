@@ -24,14 +24,13 @@ If I had to describe myself in the broadest of terms, it'd be a nerd, Software E
 
 I'm a firm believer that vision and ideals should come before implementation, for one has already compromised quality by sacrificing direction. Even further, while each experience is different, there is something to be said for maintaining your own core principles -- after all, a fresh perspective and a strong sense of self are invaluable tools when faced with new experiences. Some other core philosophies of mine are:
 
-* Treat everyone as you yourself would want to be treated.
-* Stick to your ideals -- refine and hone them, but never abandon them. People, organizations, and culture will challenge your ideals, but don't let anyone bully you into needlessly changing them.
+* Stick to your ideals -- refine and hone them, but never abandon them. People, organizations, and culture will challenge your ideals, but it doesn't mean they're right.
 * Do whatever you can to find your own personal joy.
 * Don't be afraid to let your inner nerd shine.
 * Be inclusive. The best solutions, experiences, and insights come from a variety of perspectives.
 * Don't fault someone for not knowing something; and if they're open to it, teach them.
 * It's easy to pretend you know everything. It's much harder to admit you don't.
-* A great solution is one that users don't know they can't live without.
+* A solution is usually bad if no one wants to use it. Or put more simply: you may as well not provide the solution at all if it's not one that the end user wants to use.
 
 And finally, above all else -- always seek to do better than you did yesterday. Each day is a learning experience, and the lessons of today are the foundations of a better tomorrow and even greater next week, month, and year.
 

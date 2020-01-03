@@ -1,0 +1,46 @@
+---
+---
+{{reference}}
+
+<div id="{{key}}-materials">
+    {% if entry.notes %}
+        <a class="label">
+            <input class="bibliography label notes" type="button" value="{{entry.notes}}">
+        </a>
+    {% endif %}
+
+    {% if entry.abstract %}
+        <a class="label collapsible">
+            <input id="{{key}}" class="bibliography label abstract" type="button" value="abstract">
+        </a>
+    {% endif %}
+
+    {% if entry.link %}
+        <a class="label" target="_blank" href="{{entry.link}}">
+            {% if entry.type == "conference" or entry.type == "workshop" %}
+                <input class="bibliography label download" type="button" value="page">
+            {% else %}
+                <input class="bibliography label download" type="button" value="download">
+            {% endif %}
+        </a>
+    {% endif %}
+
+    {% if entry.doi %}
+        <a class="label" target="_blank" href="http://dx.doi.org/{{entry.doi}}">
+            <input class="bibliography label doi" type="button" value="doi">
+        </a>
+    {% endif %}
+
+    <a class="label collapsible">
+        <input id="{{key}}" class="bibliography label bibtex" type="button" value="bibtex">
+    </a>
+
+    {% if entry.abstract %}
+        <div id="{{key}}-abstract" class="collapsible">
+            <pre  style="white-space:normal;">{{entry.abstract}}</pre>
+        </div>
+    {% endif %}
+    <div id="{{key}}-bibtex" class="collapsible">
+        <pre>{{entry.bibtex}}</pre>
+    </div>
+</div>
