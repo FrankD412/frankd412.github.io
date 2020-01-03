@@ -16,7 +16,7 @@ I currently work at [Lawrence Livermore National Laboratory](https://www.llnl.go
 <a class="github-button" href="https://github.com/llnl/maestrowf/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch llnl/maestrowf on GitHub">Watch</a>
     * [Maestro on PyPi](https://pypi.org/project/maestrowf/){:target="_blank"}
     * [Maestro on ReadtheDocs](https://maestrowf.readthedocs.io/en/latest/){:target="_blank"}
-    * We're part of the [RADIUSS](https://software.llnl.gov/radiuss/){:target="_blank"} effort at LLNL
+    * Maestro is part of the [RADIUSS](https://software.llnl.gov/radiuss/){:target="_blank"} effort at LLNL
 <br/><br/>
 + **Workflow Expert and Researcher** for the RAS protein pilot project (one of three pilots of [JDACS4C](https://datascience.cancer.gov/collaborations/joint-design-advanced-computing){:target="_blank"}). Our mission aims at scaling molecular dynamics to long enough timescales to better understand the RAS protein and its role in the development of cancer. Our team has successfully run large scale MD simulation campaigns on Sierra, the second fastest supercomputer on the [TOP500 list](https://www.top500.org/lists/2018/11/){:target="_blank"} (as of November 2018). As part of an interdisciplinary team of scientists, my responsibilities include managing the project's code repositories, providing guidance on workflow/code design, and implementing new features.
 
@@ -60,7 +60,7 @@ Stub
 
 ## Publications
 
-{% bibliography --file mypapers --sort_by year,month,day --order descending %}
+{% bibliography --file bibliography/mypapers --sort_by year,month,day --order descending %}
 
 **For the most up-to-date publications, please see my [Google Scholar profile](https://scholar.google.com/citations?user={{ site.google.scholar }}&hl=en&oi=sra{{ site.google.scholar }}){:target="_blank"}**
 
@@ -68,10 +68,10 @@ Stub
 
 ## Invited Talks
 
-{% bibliography --file presentations --sort_by year,month,day --order descending %}
+{% bibliography --file bibliography/presentations --sort_by year,month,day --order descending %}
 
 ---
 
 ## Posters
 
-{% bibliography --file posters --sort_by year,month,day --order descending %}
+{% bibliography --file bibliography/posters --sort_by year,month,day --order descending %}
