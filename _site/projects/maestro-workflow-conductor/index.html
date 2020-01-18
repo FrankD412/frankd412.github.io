@@ -11,7 +11,7 @@
       <span class="na">description</span><span class="pi">:</span> <span class="s">Say hello to the world!</span>
       <span class="na">run</span><span class="pi">:</span>
           <span class="na">cmd</span><span class="pi">:</span> <span class="pi">|</span>
-            <span class="s">echo "Hello, World!" &gt; hello_world.txt</span>
+            <span class="no">echo "Hello, World!" &gt; hello_world.txt</span>
 </code></pre></div></div> <p>You can easily chain steps together by specifying dependencies. If you wanted to say “bye” after saying “hello”:</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">description</span><span class="pi">:</span>
     <span class="na">name</span><span class="pi">:</span> <span class="s">hello_bye</span>
     <span class="na">description</span><span class="pi">:</span> <span class="s">A simple 'Hello World' study.</span>
@@ -25,12 +25,12 @@
       <span class="na">description</span><span class="pi">:</span> <span class="s">Say hello to someone!</span>
       <span class="na">run</span><span class="pi">:</span>
           <span class="na">cmd</span><span class="pi">:</span> <span class="pi">|</span>
-            <span class="s">echo "Hello, World!" &gt; hello_world.txt</span>
+            <span class="no">echo "Hello, World!" &gt; hello_world.txt</span>
     <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">bye_world</span>
       <span class="na">description</span><span class="pi">:</span> <span class="s">Say bye to someone!</span>
       <span class="na">run</span><span class="pi">:</span>
           <span class="na">cmd</span><span class="pi">:</span> <span class="pi">|</span>
-            <span class="s">echo "Bye, World!" &gt; bye_world.txt</span>
+            <span class="no">echo "Bye, World!" &gt; bye_world.txt</span>
           <span class="na">depends</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">hello_world</span><span class="pi">]</span>
 </code></pre></div></div> <h2 id="core-design-principles">Core Design Principles</h2> <p>When performing scientific software workflows, there are a few desirable properties that are essential to consider. Maestro focuses on the following:</p> <ul> <li>
 <strong>Repeatability</strong>. Consistently repeating a workflow is the first step to reproducing it.</li> <li>
