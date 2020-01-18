@@ -1,3 +1,4 @@
 # Compiled local files
 Gemfile.lock
 **/.DS_Store
+.sass-cache
