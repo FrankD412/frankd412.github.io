@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2020-01-17T22:10:41-08:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Idealist.</subtitle><entry><title type="html">The Basics of Kerbal</title><link href="https://frankd412.github.io/posts/gaming/kerbal-basics/" rel="alternate" type="text/html" title="The Basics of Kerbal" /><published>2019-09-02T10:33:00-07:00</published><updated>2019-09-02T10:33:00-07:00</updated><id>https://frankd412.github.io/posts/gaming/kerbal-basics</id><content type="html" xml:base="https://frankd412.github.io/posts/gaming/kerbal-basics/">&lt;h1 id=&quot;about-kerbal-space-program&quot;&gt;About Kerbal Space Program&lt;/h1&gt;
-
-&lt;p&gt;This is a stub.&lt;/p&gt;
-
-&lt;h1 id=&quot;mods&quot;&gt;Mods&lt;/h1&gt;
-
-&lt;h2 id=&quot;ckan-mod-manager&quot;&gt;CKAN Mod Manager&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Point to CKAN install&lt;/li&gt;
-  &lt;li&gt;Sadly, only works on Windows.
-    &lt;ul&gt;
-      &lt;li&gt;Put in install folder, so that way if you migrate libraries it will follow.&lt;/li&gt;
-      &lt;li&gt;pin it to taskbar&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="gaming" /><category term="blog" /><category term="kerbal space program" /><category term="science" /><category term="space" /><category term="gaming" /><category term="physics" /><summary type="html">A post about the basics for getting started with Kerbal Space Program. Mods, some basics to look into, etc.</summary></entry><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2020-01-18T10:12:51-08:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Idealist.</subtitle><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
 
 &lt;p&gt;As it turns out, there is actually quite a set of gems that GitHub doesn’t trust which makes it harder to do anything fancy if it requires an install they don’t like. In my debugging efforts I was spammed with emails as I kept pushing commits trying to fix the error. I swear that it’s come across my inbox enough that it’ll give me nightmares for a while. For those curious, the error in question:&lt;/p&gt;
 
@@ -187,7 +172,7 @@ The folder `_site` above is where my build places my compiled website. Your webs
       &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say hello to the world!&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
+            &lt;span class=&quot;no&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;You can easily chain steps together by specifying dependencies. If you wanted to say “bye” after saying “hello”:&lt;/p&gt;
@@ -204,12 +189,12 @@ The folder `_site` above is where my build places my compiled website. Your webs
       &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say hello to someone!&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
+            &lt;span class=&quot;no&quot;&gt;echo &quot;Hello, World!&quot; &amp;gt; hello_world.txt&lt;/span&gt;
     &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bye_world&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Say bye to someone!&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;echo &quot;Bye, World!&quot; &amp;gt; bye_world.txt&lt;/span&gt;
+            &lt;span class=&quot;no&quot;&gt;echo &quot;Bye, World!&quot; &amp;gt; bye_world.txt&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;depends&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
