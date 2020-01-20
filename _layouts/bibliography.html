@@ -11,7 +11,10 @@
 
     {% if entry.abstract %}
         <a class="label collapsible">
-            <button id="{{key}}" class="bibliography label abstract" content="abstract">abstract <i id="{{key}}" content="abstract" class="fa fa-fw fa-chevron-down"></i></button>
+            <button key="{{key}}" class="bibliography label abstract" content="abstract"> 
+            <i id="{{key}}-abstract-chev" key="{{key}}" class="collapsible fa fa-fw fa-chevron-down" content="abstract"/>
+            abstract
+            </button>
         </a>
     {% endif %}
 
@@ -32,10 +35,9 @@
     {% endif %}
 
     <a class="label collapsible">
-        <button id="{{key}}" class="bibliography label bibtex" content="bibtex">
-            bibtex 
-            <i id="{{key}}-down" class="fa fa-fw fa-chevron-down"/>
-            <i id="{{key}}-right" class="fa fa-fw fa-chevron-right"/>
+        <button key="{{key}}" class="bibliography label bibtex" content="bibtex"> 
+            <i id="{{key}}-bibtex-chev" key="{{key}}" content="bibtex" class="collapsible fa fa-fw fa-chevron-down"/>
+            bibtex
         </button>
     </a>
 
