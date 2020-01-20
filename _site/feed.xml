@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2020-01-18T10:12:51-08:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Idealist.</subtitle><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2020-01-19T22:07:05-08:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Idealist.</subtitle><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
 
 &lt;p&gt;As it turns out, there is actually quite a set of gems that GitHub doesn’t trust which makes it harder to do anything fancy if it requires an install they don’t like. In my debugging efforts I was spammed with emails as I kept pushing commits trying to fix the error. I swear that it’s come across my inbox enough that it’ll give me nightmares for a while. For those curious, the error in question:&lt;/p&gt;
 
@@ -222,7 +222,10 @@ The folder `_site` above is where my build places my compiled website. Your webs
 
     
         &lt;a class=&quot;label collapsible&quot;&gt;
-            &lt;input id=&quot;DiNatale2019MPI32955003356197&quot; class=&quot;bibliography label abstract&quot; type=&quot;button&quot; value=&quot;abstract&quot; /&gt;
+            &lt;button key=&quot;DiNatale2019MPI32955003356197&quot; class=&quot;bibliography label abstract&quot; content=&quot;abstract&quot;&gt; 
+            &lt;i id=&quot;DiNatale2019MPI32955003356197-abstract-chev&quot; key=&quot;DiNatale2019MPI32955003356197&quot; class=&quot;collapsible fa fa-fw fa-chevron-down&quot; content=&quot;abstract&quot; /&gt;
+            abstract
+            &lt;/button&gt;
         &lt;/a&gt;
     
 
@@ -241,7 +244,10 @@ The folder `_site` above is where my build places my compiled website. Your webs
     
 
     &lt;a class=&quot;label collapsible&quot;&gt;
-        &lt;input id=&quot;DiNatale2019MPI32955003356197&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+        &lt;button key=&quot;DiNatale2019MPI32955003356197&quot; class=&quot;bibliography label bibtex&quot; content=&quot;bibtex&quot;&gt; 
+            &lt;i id=&quot;DiNatale2019MPI32955003356197-bibtex-chev&quot; key=&quot;DiNatale2019MPI32955003356197&quot; content=&quot;bibtex&quot; class=&quot;collapsible fa fa-fw fa-chevron-down&quot; /&gt;
+            bibtex
+        &lt;/button&gt;
     &lt;/a&gt;
 
     
@@ -285,7 +291,10 @@ We present the various MuMMI components, including the macro model, GPU-accelera
 
     
         &lt;a class=&quot;label collapsible&quot;&gt;
-            &lt;input id=&quot;8943552&quot; class=&quot;bibliography label abstract&quot; type=&quot;button&quot; value=&quot;abstract&quot; /&gt;
+            &lt;button key=&quot;8943552&quot; class=&quot;bibliography label abstract&quot; content=&quot;abstract&quot;&gt; 
+            &lt;i id=&quot;8943552-abstract-chev&quot; key=&quot;8943552&quot; class=&quot;collapsible fa fa-fw fa-chevron-down&quot; content=&quot;abstract&quot; /&gt;
+            abstract
+            &lt;/button&gt;
         &lt;/a&gt;
     
 
@@ -298,7 +307,10 @@ We present the various MuMMI components, including the macro model, GPU-accelera
     
 
     &lt;a class=&quot;label collapsible&quot;&gt;
-        &lt;input id=&quot;8943552&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+        &lt;button key=&quot;8943552&quot; class=&quot;bibliography label bibtex&quot; content=&quot;bibtex&quot;&gt; 
+            &lt;i id=&quot;8943552-bibtex-chev&quot; key=&quot;8943552&quot; content=&quot;bibtex&quot; class=&quot;collapsible fa fa-fw fa-chevron-down&quot; /&gt;
+            bibtex
+        &lt;/button&gt;
     &lt;/a&gt;
 
     
@@ -335,7 +347,10 @@ We present the various MuMMI components, including the macro model, GPU-accelera
     
 
     &lt;a class=&quot;label collapsible&quot;&gt;
-        &lt;input id=&quot;peterson2019merlin&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+        &lt;button key=&quot;peterson2019merlin&quot; class=&quot;bibliography label bibtex&quot; content=&quot;bibtex&quot;&gt; 
+            &lt;i id=&quot;peterson2019merlin-bibtex-chev&quot; key=&quot;peterson2019merlin&quot; content=&quot;bibtex&quot; class=&quot;collapsible fa fa-fw fa-chevron-down&quot; /&gt;
+            bibtex
+        &lt;/button&gt;
     &lt;/a&gt;
 
     
@@ -363,7 +378,10 @@ We present the various MuMMI components, including the macro model, GPU-accelera
     
 
     &lt;a class=&quot;label collapsible&quot;&gt;
-        &lt;input id=&quot;ahn2018flux&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+        &lt;button key=&quot;ahn2018flux&quot; class=&quot;bibliography label bibtex&quot; content=&quot;bibtex&quot;&gt; 
+            &lt;i id=&quot;ahn2018flux-bibtex-chev&quot; key=&quot;ahn2018flux&quot; content=&quot;bibtex&quot; class=&quot;collapsible fa fa-fw fa-chevron-down&quot; /&gt;
+            bibtex
+        &lt;/button&gt;
     &lt;/a&gt;
 
     
@@ -395,7 +413,10 @@ We present the various MuMMI components, including the macro model, GPU-accelera
     
 
     &lt;a class=&quot;label collapsible&quot;&gt;
-        &lt;input id=&quot;doi101021acsjctc8b00496&quot; class=&quot;bibliography label bibtex&quot; type=&quot;button&quot; value=&quot;bibtex&quot; /&gt;
+        &lt;button key=&quot;doi101021acsjctc8b00496&quot; class=&quot;bibliography label bibtex&quot; content=&quot;bibtex&quot;&gt; 
+            &lt;i id=&quot;doi101021acsjctc8b00496-bibtex-chev&quot; key=&quot;doi101021acsjctc8b00496&quot; content=&quot;bibtex&quot; class=&quot;collapsible fa fa-fw fa-chevron-down&quot; /&gt;
+            bibtex
+        &lt;/button&gt;
     &lt;/a&gt;
 
     
