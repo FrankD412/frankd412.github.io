@@ -12,7 +12,7 @@ $("a.collapsible").click(function () {
 $("a.collapsible").click(function () {
     $header = $(this);
     var id = event.target.id;
-    var value = event.target.value;
+    var value = event.target.getAttribute("content");
     console.log(id);
     var name = id + "-" + value;
     console.log(name);
@@ -23,3 +23,4 @@ $("a.collapsible").click(function () {
     //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
     $content.slideToggle(500, function () { });
 });
+
