@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-tags: [about, philosophy, interests, contact]
+tags: [about, experience, philosophy, interests, contact]
 date: 2016-02-04
 comments: false
 ---
@@ -12,40 +12,13 @@ Francesco Di Natale is a Computer Scientist in the Applications, Simulations, an
 
 ----
 
-## About me
+## Personal Statement
 
-If I had to describe myself in the broadest of terms, it'd be a nerd, Software Engineer, and science enthusiast. In more specific terms, I am:
+I want to make HPC and Cloud Computing accessible and easy to use.
 
-* A Software Engineer, Architect, and Designer who is passionate about enabling others
-* Dog dad to an adorable Dachshund-mix named Rey
-* A Millennial with a strong sense of idealism and optimism
-* A lifelong learner and teacher
-* Die-hard Star Wars fan
+I'm a Software Engineer and Architect/Designer by education with practical experience from both the areas of Computer Architecture and HPC. Through the use of simulation during my various experiences in graduate school and industry, I've come to appreciate the complexities of developing generalized workflow automation in the computational sciences. My experiences have instilled in me a deep passion for making high performance resources more readily useful and accessible to computational scientists, while also striving to make computational science more reproducible and documentable. These goals have lead me to create the [Maestro Workflow Conductor](https://github.com/LLNL/maestrowf), a lightweight tool for specifying and automating multi-step workflows on HPC resources, which has been used on many of the world's fastest supercomputers (Summit, Sierra, Lassen, and others). I plan to continue to develop the philosophies, concepts, and software needed to provide computational scientists the tools and know-how they need to better design, develop, and communicate computational workflow while also continuing to leverage opportunities to make these efforts easier to automate.
 
-I'm a firm believer that vision and ideals should come before implementation, for one has already compromised quality by sacrificing direction. Even further, while each experience is different, there is something to be said for maintaining your own core principles -- after all, a fresh perspective and a strong sense of self are invaluable tools when faced with new experiences. Some other core philosophies of mine are:
-
-* Treat everyone as you yourself would want to be treated.
-* Stick to your ideals -- refine and hone them, but never abandon them. People, organizations, and culture will challenge your ideals, but don't let anyone bully you into needlessly changing them.
-* Do whatever you can to find your own personal joy.
-* Don't be afraid to let your inner nerd shine.
-* Be inclusive. The best solutions, experiences, and insights come from a variety of perspectives.
-* Don't fault someone for not knowing something; and if they're open to it, teach them.
-* It's easy to pretend you know everything. It's much harder to admit you don't.
-* A great solution is one that users don't know they can't live without.
-
-And finally, above all else -- always seek to do better than you did yesterday. Each day is a learning experience, and the lessons of today are the foundations of a better tomorrow and even greater next week, month, and year.
-
----
-## Interests, Passions, and Hobbies
-
-My hobbies vary quite a bit -- I'm currently working on learning to knit, but my other hobbies include (and probably are not limited to):
-
-* Building and painting [Gunpla](https://en.wikipedia.org/wiki/Gundam_model)
-* Cooking
-* 3D Printing
-* Gaming (currently I mainly play the Nintendo Switch)
-* Learning about code (trying to become familiar with the n-body problem)
-* Anime
+It is my firm belief that my goals are achievable by prioritizing sound Software Engineering and Design fundamentals. I love to build tools that users not only trust, but that allows them to more productively focus on their own work towards critical scientific progress; however, simply delivering a tool is not enough. Tools need to outlive singular projects requiring iterative design, strongly componentized modules, and a clear vision for the future. I thrive in environments where my design expertise is allowed to meet my imagination, allowing me to creatively change the way people work and help them better solve their every day hurdles. My experiences have placed me into unique opportunities to work on multi-disciplinary teams, centered around simulating at-scale and with a variety of collaborators and contributors.
 
 ---
 ## Contact me
@@ -60,13 +33,26 @@ If you'd like to reach me, follow me, or game with me -- try one of the followin
 </div>
 
 ---
+## Interests, Passions, and Hobbies
+
+My hobbies vary quite a bit -- I'm currently working on learning to knit, but my other hobbies include (and probably are not limited to):
+
+* Building and painting [Gunpla](https://en.wikipedia.org/wiki/Gundam_model)
+* Cooking (Currently working on Sourdough starters)
+* 3D Printing
+* Gaming (currently I mainly play the Nintendo Switch and Kerbal Space Program)
+* Learning about code (trying to become familiar with the n-body problem)
+* Anime
+
+---
 ## Photos of Rey
 
-As a dog dad, I have to take the opportunity to show off my little one as much as possible. Sorry, not sorry!
+As a dog dad, I have to take the opportunity to show off my little one as much as possible.
 
 {% capture images %}
+    {{ site.url }}/assets/img/rey/Image-4.jpeg
+
     {{ site.url }}/assets/img/rey/photo1.jpg
     {{ site.url }}/assets/img/rey/photo2.jpg
-    {{ site.url }}/assets/img/rey/photo4.jpg
 {% endcapture %}
 {% include gallery images=images cols=2 %}
