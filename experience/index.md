@@ -53,6 +53,7 @@ My technical interests include (but are not limited to) Software Engineering, So
 ---
 
 ## Awards and Recognition
+* Lawarence Livermore National Laboratory Science & Technology Excellence in Publication Award (August 2020)
 * Best Paper at Supercomputing’19 for [A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer](https://sc19.supercomputing.org/presentation/?sess=sess165&id=pap384#038;id=pap384){:target="_blank"} [[ARTICLE](https://sc19.supercomputing.org/2019/11/25/congratulations-to-the-sc-and-society-awardees-for-sc19-in-denver/){:target="_blank"}]
 * Multiple ASQ Division Awards at [LLNL](https://www.llnl.gov){:target="_blank"}
 * Two Intel Team Awards
