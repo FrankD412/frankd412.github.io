@@ -1,4 +1,339 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2020-08-04T23:54:29-07:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Idealist.</subtitle><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://frankd412.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://frankd412.github.io/" rel="alternate" type="text/html" /><updated>2020-12-13T23:17:53-05:00</updated><id>https://frankd412.github.io/feed.xml</id><title type="html">Francesco Di Natale</title><subtitle>Software Engineer. Computer Scientist. Idealist.</subtitle><entry><title type="html">The Sourdough Journal – Entry 1</title><link href="https://frankd412.github.io/posts/baking/sourdough-journal-1/" rel="alternate" type="text/html" title="The Sourdough Journal – Entry 1" /><published>2020-12-13T16:13:00-05:00</published><updated>2020-12-13T16:13:00-05:00</updated><id>https://frankd412.github.io/posts/baking/sourdough-journal-1</id><content type="html" xml:base="https://frankd412.github.io/posts/baking/sourdough-journal-1/">&lt;p&gt;Like most people during the pandemic, I’ve discovered a desire to cook more at home
+and learn how to bake tasty things. On such thing has been to learn how to keep a 
+yeast starter and to use it to bake sourdough bread. I figured it would be worth documenting the process somewhat for my own organizational sanity but also to share it with folks who might
+be curious and want to attempt it themselves.&lt;/p&gt;
+
+&lt;p&gt;If you’re here for the pictures, here they are. These are from a couple of months of experimenting, so far I’ve only had one that has that nice, plump, spring that you expect
+from sourdough. But like all things, practice makes perfect!&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    
+    &lt;a href=&quot;https://frankd412.github.io/assets/img/sourdough/1/loaf1.jpg&quot;&gt;&lt;img src=&quot;https://frankd412.github.io/assets/img/sourdough/1/loaf1.jpg&quot; alt=&quot;&quot; class=&quot;gallery-image&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://frankd412.github.io/assets/img/sourdough/1/loaf3.jpg&quot;&gt;&lt;img src=&quot;https://frankd412.github.io/assets/img/sourdough/1/loaf3.jpg&quot; alt=&quot;&quot; class=&quot;gallery-image&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://frankd412.github.io/assets/img/sourdough/1/loaf4.jpg&quot;&gt;&lt;img src=&quot;https://frankd412.github.io/assets/img/sourdough/1/loaf4.jpg&quot; alt=&quot;&quot; class=&quot;gallery-image&quot; /&gt;&lt;/a&gt;
+    
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;loaf-75-hydration-43-flour-ratio&quot;&gt;Loaf (75% hydration, 4:3 Flour ratio)&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Ingredient&lt;/th&gt;
+      &lt;th&gt;Mass (g)&lt;/th&gt;
+      &lt;th&gt;% Total Mass&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;King Arthur’s Unbleached All-purpose Flour&lt;/td&gt;
+      &lt;td&gt;150 g&lt;/td&gt;
+      &lt;td&gt;18.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;King Arthur’s Unbleached Bread Flour&lt;/td&gt;
+      &lt;td&gt;250 g&lt;/td&gt;
+      &lt;td&gt;31.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Filtered Water&lt;/td&gt;
+      &lt;td&gt;300 g&lt;/td&gt;
+      &lt;td&gt;37.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Yeast Starter&lt;/td&gt;
+      &lt;td&gt;85 g&lt;/td&gt;
+      &lt;td&gt;10.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Iodized Salt&lt;/td&gt;
+      &lt;td&gt;7.5 g&lt;/td&gt;
+      &lt;td&gt;0.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Total&lt;/td&gt;
+      &lt;td&gt;792.5 g&lt;/td&gt;
+      &lt;td&gt;100%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;leaven&quot;&gt;Leaven&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Ingredient&lt;/th&gt;
+      &lt;th&gt;Mass (g)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;King Arthur’s Unbleached All-purpose Flour&lt;/td&gt;
+      &lt;td&gt;55 g&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Filtered Water&lt;/td&gt;
+      &lt;td&gt;50 g&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;NOTE:&lt;/em&gt; Your yeast should be active enough to double in 2-3 hours. If not, you can mix the leaven as far ahead as reasonable so that it will have doubled in size for the recipe below.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;equipment&quot;&gt;Equipment&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;amazon.com/Lodge-L8DD3-Cast-Iron-Dutch/dp/B000LEXR0K?ref_=ast_sto_dp&quot;&gt;Dutch Oven&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lame or Sharp Razor Blade&lt;/li&gt;
+  &lt;li&gt;Mixing bowl&lt;/li&gt;
+  &lt;li&gt;Mixing spool or wooden spoon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Below are the full instructions that I followed to make the loaves pictured above. I plan to improve my technique and consistency – but for now, this is the recipe that has yielded me some successful loaves.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-75-hydrated-dough&quot;&gt;Directions (75% Hydrated Dough)&lt;/h2&gt;
+
+&lt;h3 id=&quot;leaven-preparation&quot;&gt;Leaven Preparation&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ahead of mixing the other ingredients, begin with a heaping tablespoon (or two) of yeast starter mixed with 50 g of room temperature water and 55-60 g of either King Arthur’s Unbleached All-Purpose or Bread Flour. Mix until thoroughly combined. Add flour as needed to achieve a wet but stiff consistency, thoroughly mixing until combined.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;dough-preparation&quot;&gt;Dough Preparation&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;In a large bowl, mix both the All-Purpose and Bread flours; mix to combine.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pour in the filtered water about 100 grams at a time, mixing a bit to each time to reduce pooling.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using a large spoon, mix together the flour and water until the water is absorbed. Once absorbed, you’ll likely need to mix by hand. Lightly wet one hand and fold the dough over on itself until fully incorporated.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;The dough will become stickier as you mix it since sourdough is a highly hydrated dough. Be careful to not overwork the dough as you will be working the dough again to mix in both your leaven and salt.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Let your flour-water mixture rest for 2 hours to allow the dough to autolyse. This is called the autolyse phase and will allow gluten to form giving your dough structure.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After two hours, your leaven should be doubled in volume. Measure out 85 grams of leaven and spread with a spoon on top of your relaxed dough. Once spread out, start folding the dough in on itself starting at the edges on the side of the bowl. Once the the dough is folded, lift from the middle on the sides of the dough and gently lay it into the bowl laying one half on to of the other. Rotate the bowl 90 degrees and repeat. Continue folding until the leaven is fully incorporated into your dough.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;In lieu of folding in your bowl until incorporated, you can use a larger work surface such as a large cutting board or (cleaned) countertop and use what is called the “&lt;a href=&quot;https://www.theperfectloaf.com/guides/slap-and-fold/&quot;&gt;slap and fold&lt;/a&gt;” method.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Allow the dough to rest for 30 minutes. While waiting, measure out 7.5 grams of salt and set aside separately alongside some room temperature water (~10 grams).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After 30 minutes, wet your finger tips and poke some shallow dimples on the top of your dough. Spread half of the salt on the surface of the dough and pour enough water to wet the surface of the dough. Rub the salt into the dough’s surface and fold the dough on itself from the edges. Once initially folded, spread the remaining salt over the surface of the dough adding some water to dissolve it, again folding afterwards. Your dough will start forming distinct clumps and strands, and is expected. Continue folding the dough in your bowl until the dough forms a single cohesive mass. Let the dough rest for 30 minutes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once the dough has rested, wet the tips of your fingers and loosen the dough off the edge of the bowl. Once loose, fold the top of your dough over the center rotating the bowl roughly 60 degrees each time your fold. The goal is to get between 4 to 6 folds on your dough. Once folded, cover your bowl with a towel and let rest for 30 minutes. Repeat this process every 30 minutes for the next 2.5 hours, letting the dough rest for 30 minutes after the final fold.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;An alternative folding method is the &lt;a href=&quot;https://www.youtube.com/watch?v=FcEzgWwQQjc&quot;&gt;coil fold&lt;/a&gt;.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;summarized-preparation-and-folding-schedule&quot;&gt;Summarized Preparation and Folding Schedule&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Start Time&lt;/th&gt;
+      &lt;th&gt;Stage&lt;/th&gt;
+      &lt;th&gt;Rest Time After Stage&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;= 0 hours&lt;/td&gt;
+      &lt;td&gt;Prepare Leaven&lt;/td&gt;
+      &lt;td&gt;2 hours*&lt;/td&gt;
+      &lt;td&gt;Feed starter (see &lt;a href=&quot;###leavan&quot;&gt;Leavan&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0 hours&lt;/td&gt;
+      &lt;td&gt;Autolyse&lt;/td&gt;
+      &lt;td&gt;2 hours&lt;/td&gt;
+      &lt;td&gt;Mix flour and water (Steps 1-5)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2 hours&lt;/td&gt;
+      &lt;td&gt;Add leaven&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;Introduce leavan (Step 6)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.5 hours&lt;/td&gt;
+      &lt;td&gt;Add salt&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;Mix in salt (Steps 7-8)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3 hours&lt;/td&gt;
+      &lt;td&gt;Stretch &amp;amp; Fold #1&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;Gently fold dough 4-6 times (Step 9)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3.5 hours&lt;/td&gt;
+      &lt;td&gt;Stretch &amp;amp; Fold #2&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;Gently fold dough 4-6 times (Step 9)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4 hours&lt;/td&gt;
+      &lt;td&gt;Stretch &amp;amp; Fold #3&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;Gently fold dough 4-6 times (Step 9)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4.5 hours&lt;/td&gt;
+      &lt;td&gt;Stretch &amp;amp; Fold #4&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;Gently fold dough 4-6 times (Step 9)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5 hours&lt;/td&gt;
+      &lt;td&gt;Stretch &amp;amp; Fold #5&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;Gently fold dough 4-6 times (Step 9)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.5 hours&lt;/td&gt;
+      &lt;td&gt;Stretch &amp;amp; Fold #6&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;Gently fold dough 4-6 times (Step 9)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;shaping-and-proofing&quot;&gt;Shaping and Proofing&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gently loosen the dough from your bowl with either lightly wet fingertips or a flexible dough scraper onto your work surface. Once on your work surface, you will need to do some initial shaping on the dough. Use the scrapper to form a tensioned, loose mound out of your dough. Let rest for 20 to 30 minutes.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;You can find a video on how to shape your dough &lt;a href=&quot;https://youtu.be/z7Mnxzy-tvI?t=190&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;While the dough is resting, coat a cotton towel with flour and push into a medium sized bowl.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Alternatively, you can buy banneton proofing baskets which come with a lining that can be lightly dusted with flour for proofing.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once the dough has rested, final shaping is required. Lightly flour the surface of the dough and using the scraper to flip the dough so that the wetter side toughing the working surface is face up. Gently stretch the dough into a square. Fold one side over about 75% the way to the opposite side. On the adjacent sides, fold one side over 75% of the way over and the repeat with the opposite side. On the last side, making small folds, gently roll the dough while folding until completely rolled.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;For an example of shaping see Fullproof Baking’s &lt;a href=&quot;https://youtu.be/Bncopq4aH1Y?t=203&quot;&gt;video&lt;/a&gt;.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once the dough is shaped, place it into the floured bowl (or banneton) seam-side up. In order to encourage the seam to join, pinch both sides together until the seam stuck together. Lightly flour the bottom of the dough, and loosely fold over any excess towel over the dough. Use plastic wrap (or a lid for a bowl) to seal the dough in and then place in the fridge for at least 4 hours (maximum up to around 15 hours).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;baking&quot;&gt;Baking&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Preheat your oven to 500°F with your Dutch oven inside; allow your Dutch oven to sit for 10-15 minutes once preheated to fully heat.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once heated, remove your dough from the fridge, unwrap, and gently place onto some parchment paper seam-side down. Use a sharp razor blade or lame to score dough at about a 45° angle the bottom of the dough.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Remove the Dutch oven from your oven and place your parchment paper with dough in the center. Cover, and place back into the oven for 20 minutes.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;If you’ve baked a loaf previously and find that the bread isn’t rising as much as you might expect, try spraying (or pouring in) some water into your Dutch oven before baking it covered.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Drop the temperature of your oven to 450°F and continue to bake covered for another 10 minutes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After the 10 minutes, remove the cover from the Dutch oven. The loaf should have expanded and be a light gold color. Place back into the oven and bake until a deep golden brown color is achieved.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After a deep golden brown is achieved, remove from the oven and place on a cooling rack until fully cooled (about 1.5 to 2 hours). It is important to let the loaf cool as cutting while hot affects the texture of the final loaf.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;summarized-baking-schedule&quot;&gt;Summarized Baking Schedule&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Cook Time&lt;/th&gt;
+      &lt;th&gt;Temperature&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;20 minutes&lt;/td&gt;
+      &lt;td&gt;500°F&lt;/td&gt;
+      &lt;td&gt;Preheat oven with Dutch Oven inside&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;20 minutes&lt;/td&gt;
+      &lt;td&gt;500°F&lt;/td&gt;
+      &lt;td&gt;Bake with Dutch Oven Covered&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10 minutes&lt;/td&gt;
+      &lt;td&gt;450°F&lt;/td&gt;
+      &lt;td&gt;Bake with Dutch Oven Covered&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15-25 minutes&lt;/td&gt;
+      &lt;td&gt;450°F&lt;/td&gt;
+      &lt;td&gt;Bake uncovered until a deep golden brown&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1-2 hours&lt;/td&gt;
+      &lt;td&gt;N/A&lt;/td&gt;
+      &lt;td&gt;Let the loaf cool before cutting&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h2&gt;
+
+&lt;p&gt;Now that your loaf is cooled, feel free to cut and eat however you like to. Hopefully this post helps you to start your own sourdough journey, or at least gives you enough of the basics to give you some leads on where to start!&lt;/p&gt;</content><author><name></name></author><category term="Baking" /><category term="sourdough" /><category term="bread" /><category term="homecooked" /><category term="baking" /><category term="journal" /><category term="blog" /><summary type="html">The first entry in my attempts to perfect my sourdough baking skills.</summary></entry><entry><title type="html">How to Setup Statically Built GitHub Pages</title><link href="https://frankd412.github.io/posts/static-sites/" rel="alternate" type="text/html" title="How to Setup Statically Built GitHub Pages" /><published>2019-07-01T00:00:00-04:00</published><updated>2019-07-01T00:00:00-04:00</updated><id>https://frankd412.github.io/posts/static-sites</id><content type="html" xml:base="https://frankd412.github.io/posts/static-sites/">&lt;p&gt;So, this how-to is mostly just an impromptu post so that it’s documented for anyone else struggling to get a statically built Jekyll webpage running on their own person github.io site. My woes all started when trying to get the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll-scholar&lt;/code&gt; gem working on my personal webpage (this very one that you’re on in fact). In this post, I’ll take you through some of the basic things that I have set up having gone down this rabbit hole and investigated a few dead ends with a moderate amount of Google searching.&lt;/p&gt;
 
 &lt;p&gt;As it turns out, there is actually quite a set of gems that GitHub doesn’t trust which makes it harder to do anything fancy if it requires an install they don’t like. In my debugging efforts I was spammed with emails as I kept pushing commits trying to fix the error. I swear that it’s come across my inbox enough that it’ll give me nightmares for a while. For those curious, the error in question:&lt;/p&gt;
 
