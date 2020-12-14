@@ -2,7 +2,7 @@
 
 &lt;p&gt;As it turns out, there is actually quite a set of gems that GitHub doesn’t trust which makes it harder to do anything fancy if it requires an install they don’t like. In my debugging efforts I was spammed with emails as I kept pushing commits trying to fix the error. I swear that it’s come across my inbox enough that it’ll give me nightmares for a while. For those curious, the error in question:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The tag `bibliography` on line 26 in `projects/_posts/2019-05-09-maestro-workflow-conductor.md` is not a recognized Liquid tag.
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The tag `bibliography` on line 26 in `projects/_posts/2019-05-09-maestro-workflow-conductor.md` is not a recognized Liquid tag.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -13,9 +13,9 @@
 Note: I will caveat this section with the fact that I've only ever gotten this to work in a Unix environment. I develop on a MacBook, but see no reason why these steps shouldn't work on a Linux VM. That said, I did attempt to get a Docker container for building and local testing running and found it miserably difficult to do so, which means this guide won't work on Windows. I'll be sure to make another blog post if I manage to figure that one out.
 &lt;/aside&gt;
 
-&lt;p&gt;So, what do you need to do to get set up? First things first, you’re going to need to install &lt;code class=&quot;highlighter-rouge&quot;&gt;ruby&lt;/code&gt;. For me, that was as simple as &lt;code class=&quot;highlighter-rouge&quot;&gt;brew install ruby&lt;/code&gt; and a simple .zshrc file update. If you’re on any modern distro of Linux/Unix (or even an older one), you can most likely run &lt;code class=&quot;highlighter-rouge&quot;&gt;apt-get install ruby&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install ruby&lt;/code&gt;. With that installation you will now have access to &lt;code class=&quot;highlighter-rouge&quot;&gt;gems&lt;/code&gt;, which is really what we want out of all of this (don’t worry, you won’t be coding in ruby). Once that’s done, you’ll want to run the following commands. The output should look similar to the following:&lt;/p&gt;
+&lt;p&gt;So, what do you need to do to get set up? First things first, you’re going to need to install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby&lt;/code&gt;. For me, that was as simple as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brew install ruby&lt;/code&gt; and a simple .zshrc file update. If you’re on any modern distro of Linux/Unix (or even an older one), you can most likely run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt-get install ruby&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install ruby&lt;/code&gt;. With that installation you will now have access to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gems&lt;/code&gt;, which is really what we want out of all of this (don’t worry, you won’t be coding in ruby). Once that’s done, you’ll want to run the following commands. The output should look similar to the following:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; gem install bundler
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; gem install bundler
 &amp;gt; bundle update --bundler
 Fetching bundler-2.0.1.gem
 bundler's executable &quot;bundle&quot; conflicts with /usr/local/lib/ruby/gems/2.6.0/bin/bundle
@@ -30,9 +30,9 @@ Done installing documentation for bundler after 2 seconds
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Once &lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is installed, run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update --bundler&lt;/code&gt;. You should see a bunch of dependencies installed one after another over a few minutes.&lt;/p&gt;
+&lt;p&gt;Once &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is installed, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update --bundler&lt;/code&gt;. You should see a bunch of dependencies installed one after another over a few minutes.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; bundle update --bundler
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; bundle update --bundler
 Fetching gem metadata from https://rubygems.org/..............
 Fetching concurrent-ruby 1.1.5
 Installing concurrent-ruby 1.1.5
@@ -68,9 +68,9 @@ Ruby Sass has reached end-of-life and should no longer be used.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;starting-your-local-jekyll-server&quot;&gt;Starting your local Jekyll server&lt;/h2&gt;
-&lt;p&gt;It looks like Ruby Sass is EOL’ed, but it does work for now and renders the site just fine. Now that you have &lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; installed, let’s start a local server. Starting a local server is as simple as the following, just change directory into the root of your website and run the following:&lt;/p&gt;
+&lt;p&gt;It looks like Ruby Sass is EOL’ed, but it does work for now and renders the site just fine. Now that you have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundler&lt;/code&gt; installed, let’s start a local server. Starting a local server is as simple as the following, just change directory into the root of your website and run the following:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; bundle exec jekyll serve --incremental
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; bundle exec jekyll serve --incremental
 Configuration file: /Users/frank/Documents/Code/Website/frankd412.github.io/_config.yml
             Source: /Users/frank/Documents/Code/Website/frankd412.github.io
        Destination: /Users/frank/Documents/Code/Website/frankd412.github.io/_site
@@ -83,7 +83,7 @@ Configuration file: /Users/frank/Documents/Code/Website/frankd412.github.io/_con
   Server running... press ctrl-c to stop.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;--incremental&lt;/code&gt; flag continues to monitor changes to the repository, rebuilding the repository on the fly as you change files. You can also build the website without serving it locally by running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll build&lt;/code&gt;. Adding new pages or posts usually requires a rebuild, which &lt;code class=&quot;highlighter-rouge&quot;&gt;serve&lt;/code&gt; does not handle.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--incremental&lt;/code&gt; flag continues to monitor changes to the repository, rebuilding the repository on the fly as you change files. You can also build the website without serving it locally by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll build&lt;/code&gt;. Adding new pages or posts usually requires a rebuild, which &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;serve&lt;/code&gt; does not handle.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -91,9 +91,9 @@ Configuration file: /Users/frank/Documents/Code/Website/frankd412.github.io/_con
 
 &lt;p&gt;Alright, so now you know how to both serve and build your site locally. Most of the way there! So, now you want to deploy your static website. If you’re using a github.io site (as I am), you’re already familiar with the fact that the master branch is the &lt;em&gt;only&lt;/em&gt; branch that gets deployed. That functionality seems to be baked into GitHub’s deployment, with no way to change it. Okay, cool. So that means we have to reserve master for our built site. If you’ve already got a repository start, you simply just make a new branch based on your current master (otherwise, just start a new branch from the start). I called mine “src”, as it’s the source to my site. Otherwise, make sure to change the default branch to src on GitHub.&lt;/p&gt;
 
-&lt;p&gt;Now, if you have a &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file in your repository, make sure that the build directory is not in it. You’re going to want to check that folder in, so to make life easier just don’t ignore it. Otherwise, we’re going to treat master as a subtree so that we simply push our site contents to it. So now, in order to deploy, simply run the following:&lt;/p&gt;
+&lt;p&gt;Now, if you have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file in your repository, make sure that the build directory is not in it. You’re going to want to check that folder in, so to make life easier just don’t ignore it. Otherwise, we’re going to treat master as a subtree so that we simply push our site contents to it. So now, in order to deploy, simply run the following:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; git checkout src
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; git checkout src
 Switched to branch 'src'
 Your branch is up to date with 'origin/src'.
 &amp;gt; bundle exec jekyll build
@@ -120,7 +120,7 @@ The folder `_site` above is where my build places my compiled website. Your webs
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/troubleshooting/&quot;&gt;Jekyll Troubleshooting&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="web dev" /><category term="how-to" /><category term="technical" /><category term="jekyll" /><category term="blog" /><summary type="html">After struggling with trying to figure out static builds with various guides, I found out just how simple it was to release a staticly built jekyll site. Here's a how to on how to do it with your own personal github.io webpage.</summary></entry><entry><title type="html">Maestro Workflow Conductor (maestrowf)</title><link href="https://frankd412.github.io/projects/maestro-workflow-conductor/" rel="alternate" type="text/html" title="Maestro Workflow Conductor (maestrowf)" /><published>2019-05-11T00:00:00-07:00</published><updated>2019-05-11T00:00:00-07:00</updated><id>https://frankd412.github.io/projects/maestro-workflow-conductor</id><content type="html" xml:base="https://frankd412.github.io/projects/maestro-workflow-conductor/">&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="posts" /><category term="web dev" /><category term="how-to" /><category term="technical" /><category term="jekyll" /><category term="blog" /><summary type="html">After struggling with trying to figure out static builds with various guides, I found out just how simple it was to release a staticly built jekyll site. Here's a how to on how to do it with your own personal github.io webpage.</summary></entry><entry><title type="html">Maestro Workflow Conductor (maestrowf)</title><link href="https://frankd412.github.io/projects/maestro-workflow-conductor/" rel="alternate" type="text/html" title="Maestro Workflow Conductor (maestrowf)" /><published>2019-05-11T00:00:00-04:00</published><updated>2019-05-11T00:00:00-04:00</updated><id>https://frankd412.github.io/projects/maestro-workflow-conductor</id><content type="html" xml:base="https://frankd412.github.io/projects/maestro-workflow-conductor/">&lt;p style=&quot;text-align: center;&quot;&gt;
 &lt;!-- Place this tag where you want the button to render. --&gt;
 &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/LLNL/maestrowf&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star LLNL/maestrowf on GitHub&quot;&gt;Star&lt;/a&gt;
 &lt;!-- Place this tag where you want the button to render. --&gt;
@@ -211,7 +211,7 @@ The folder `_site` above is where my build places my compiled website. Your webs
 
 &lt;h2 id=&quot;citations&quot;&gt;Citations&lt;/h2&gt;
 
-&lt;ul class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;DiNatale2019MPI32955003356197&quot;&gt;Di Natale, F., Bhatia, H., Carpenter, T. S., Neale, C., Schumacher, S. K., Oppelstrup, T., … Ingólfsson, H. I. (2019). A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer. In &lt;i&gt;Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis&lt;/i&gt; (pp. 57:1–57:16). New York, NY, USA: ACM. https://doi.org/10.1145/3295500.3356197&lt;/span&gt;
+&lt;ul class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;DiNatale2019MPI32955003356197&quot;&gt;Di Natale, F., Bhatia, H., Carpenter, T. S., Neale, C., Schumacher, S. K., Oppelstrup, T., Stanton, L., Zhang, X., Sundram, S., Scogland, T. R. W., Dharuman, G., Surh, M. P., Yang, Y., Misale, C., Schneidenbach, L., Costa, C., Kim, C., D’Amora, B., Gnanakaran, S., … Ingólfsson, H. I. (2019). A Massively Parallel Infrastructure for Adaptive Multiscale Simulations: Modeling RAS Initiation Pathway for Cancer. &lt;i&gt;Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis&lt;/i&gt;, 57:1–57:16. https://doi.org/10.1145/3295500.3356197&lt;/span&gt;
 
 &lt;div id=&quot;DiNatale2019MPI32955003356197-materials&quot;&gt;
     
@@ -284,7 +284,7 @@ We present the various MuMMI components, including the macro model, GPU-accelera
 &lt;/pre&gt;
     &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;8943552&quot;&gt;Patki, T., Frye, Z., Bhatia, H., Di Natale, F., Glosli, J., Ingolfsson, H., &amp;amp; Rountree, B. (2019). Comparing GPU Power and Frequency Capping: A Case Study with the MuMMI Workflow. In &lt;i&gt;2019 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)&lt;/i&gt; (pp. 31–39). https://doi.org/10.1109/WORKS49585.2019.00009&lt;/span&gt;
+&lt;li&gt;&lt;span id=&quot;8943552&quot;&gt;Patki, T., Frye, Z., Bhatia, H., Di Natale, F., Glosli, J., Ingolfsson, H., &amp;amp; Rountree, B. (2019). Comparing GPU Power and Frequency Capping: A Case Study with the MuMMI Workflow. &lt;i&gt;2019 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)&lt;/i&gt;, 31–39. https://doi.org/10.1109/WORKS49585.2019.00009&lt;/span&gt;
 
 &lt;div id=&quot;8943552-materials&quot;&gt;
     
@@ -335,7 +335,7 @@ We present the various MuMMI components, including the macro model, GPU-accelera
 &lt;/pre&gt;
     &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;peterson2019merlin&quot;&gt;Peterson, J. L., Anirudh, R., Athey, K., Bay, B., Bremer, P.-T., Castillo, V., … Yeom, J.-S. (2019). Merlin: Enabling Machine Learning-Ready HPC Ensembles.&lt;/span&gt;
+&lt;li&gt;&lt;span id=&quot;peterson2019merlin&quot;&gt;Peterson, J. L., Anirudh, R., Athey, K., Bay, B., Bremer, P.-T., Castillo, V., Natale, F. D., Fox, D., Gaffney, J. A., Hysom, D., Jacobs, S. A., Kailkhura, B., Koning, J., Kustowski, B., Langer, S., Robinson, P., Semler, J., Spears, B., Thiagarajan, J., … Yeom, J.-S. (2019). &lt;i&gt;Merlin: Enabling Machine Learning-Ready HPC Ensembles&lt;/i&gt;.&lt;/span&gt;
 
 &lt;div id=&quot;peterson2019merlin-materials&quot;&gt;
     
@@ -366,7 +366,7 @@ We present the various MuMMI components, including the macro model, GPU-accelera
 &lt;/pre&gt;
     &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;ahn2018flux&quot;&gt;Ahn, D. H., Bass, N., Chu, A., Garlick, J., Grondona, M., Herbein, S., … others. (2018). Flux: Overcoming Scheduling Challenges for Exascale Workflows. In &lt;i&gt;2018 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)&lt;/i&gt; (pp. 10–19). IEEE.&lt;/span&gt;
+&lt;li&gt;&lt;span id=&quot;ahn2018flux&quot;&gt;Ahn, D. H., Bass, N., Chu, A., Garlick, J., Grondona, M., Herbein, S., Koning, J., Patki, T., Scogland, T. R. W., Springmeyer, B., &amp;amp; others. (2018). Flux: Overcoming Scheduling Challenges for Exascale Workflows. &lt;i&gt;2018 IEEE/ACM Workflows in Support of Large-Scale Science (WORKS)&lt;/i&gt;, 10–19.&lt;/span&gt;
 
 &lt;div id=&quot;ahn2018flux-materials&quot;&gt;
     
@@ -397,7 +397,7 @@ We present the various MuMMI components, including the macro model, GPU-accelera
 &lt;/pre&gt;
     &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;doi101021acsjctc8b00496&quot;&gt;Carpenter, T. S., López, C. A., Neale, C., Montour, C., Ingólfsson, H. I., Di Natale, F., … Gnanakaran, S. (2018). Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field. &lt;i&gt;Journal of Chemical Theory and Computation&lt;/i&gt;, &lt;i&gt;14&lt;/i&gt;(11), 6050–6062. https://doi.org/10.1021/acs.jctc.8b00496&lt;/span&gt;
+&lt;li&gt;&lt;span id=&quot;doi101021acsjctc8b00496&quot;&gt;Carpenter, T. S., López, C. A., Neale, C., Montour, C., Ingólfsson, H. I., Di Natale, F., Lightstone, F. C., &amp;amp; Gnanakaran, S. (2018). Capturing Phase Behavior of Ternary Lipid Mixtures with a Refined Martini Coarse-Grained Force Field. &lt;i&gt;Journal of Chemical Theory and Computation&lt;/i&gt;, &lt;i&gt;14&lt;/i&gt;(11), 6050–6062. https://doi.org/10.1021/acs.jctc.8b00496&lt;/span&gt;
 
 &lt;div id=&quot;doi101021acsjctc8b00496-materials&quot;&gt;
     
@@ -436,4 +436,4 @@ We present the various MuMMI components, including the macro model, GPU-accelera
 }
 &lt;/pre&gt;
     &lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name></name></author><category term="python" /><category term="simulations" /><category term="hpc" /><category term="scientific computing" /><category term="software workflow" /><category term="open source" /><summary type="html">A Python command line tool and library for specifying, automating, and monitoring HPC software workflows. *Orchestra your workflows with ease.*</summary></entry></feed>
+&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name></name></author><category term="projects" /><category term="python" /><category term="simulations" /><category term="hpc" /><category term="scientific computing" /><category term="software workflow" /><category term="open source" /><summary type="html">A Python command line tool and library for specifying, automating, and monitoring HPC software workflows. *Orchestra your workflows with ease.*</summary></entry></feed>
